@@ -4,7 +4,7 @@
 Изучение сходства последовательностей ортологичных генов в различных организмах.
 
 ## Фенотип и его описание
-{Alcohol dependence, protection against} [[Omim](https://omim.org/entry/103780)].
+Фенотип: {Alcohol dependence, protection against} [[Omim](https://omim.org/entry/103780)].
 
 Описание: **Алкогольная зависимость** - это нарушение регуляции употребления алкоголя, возникающее в результате повторного или непрерывного употребления алкоголя [[ICD-11](https://icd.who.int/browse11/l-m/en#/http://id.who.int/icd/entity/1580466198)]. {Alcohol dependence, protection against} фенотип описывает устойчивость к развитию данной болезни.
 
