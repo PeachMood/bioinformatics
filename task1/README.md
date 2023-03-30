@@ -20,7 +20,8 @@
 
 #### ADH1B
 Алгоритм Water
-  https://github.com/PeachMood/bioinformatics/blob/main/task1/adh1b/water#L28-L32
+https://github.com/PeachMood/bioinformatics/blob/main/task1/adh1b/water#L28-L32
+
 Алгоритм Needle
 https://github.com/PeachMood/bioinformatics/blob/main/task1/adh1b/needle#L30-L34
 
@@ -29,6 +30,7 @@ https://github.com/PeachMood/bioinformatics/blob/main/task1/adh1b/needle#L30-L34
 #### ADH1C
 Алгоритм Water
 https://github.com/PeachMood/bioinformatics/blob/main/task1/adh1c/water#L28-L32
+
 Алгоритм Needle
 https://github.com/PeachMood/bioinformatics/blob/main/task1/adh1c/needle#L30-L34
 
