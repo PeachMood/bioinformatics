@@ -20,18 +20,18 @@
 
 #### ADH1B
 Алгоритм Water
-https://github.com/PeachMood/bioinformatics/blob/main/task1/adh1b/water#L28-L32
+https://github.com/PeachMood/bioinformatics/blob/d95f1a0b5fb868217f0f949704a1f1d8539a1e12/task1/adh1b/water#L28-L32
 
 Алгоритм Needle
-https://github.com/PeachMood/bioinformatics/blob/main/task1/adh1b/needle#L30-L34
+https://github.com/PeachMood/bioinformatics/blob/d95f1a0b5fb868217f0f949704a1f1d8539a1e12/task1/adh1b/needle#L30-L34
 
 Оптимальным в данном случае является выравнивание, полученное при помощи алгоритма Water, поскольку оно обладает схожим счетом (73737.0), но большим числом соответствий (98.9% > 90.4%) и меньшим количеством gap'ов (0.3% < 8.9%).
 
 #### ADH1C
 Алгоритм Water
-https://github.com/PeachMood/bioinformatics/blob/main/task1/adh1c/water#L28-L32
+https://github.com/PeachMood/bioinformatics/blob/d95f1a0b5fb868217f0f949704a1f1d8539a1e12/task1/adh1c/water#L28-L32
 
 Алгоритм Needle
-https://github.com/PeachMood/bioinformatics/blob/main/task1/adh1c/needle#L30-L34
+https://github.com/PeachMood/bioinformatics/blob/d95f1a0b5fb868217f0f949704a1f1d8539a1e12/task1/adh1c/needle#L30-L34
 
 Оптимальным также является выравнивание, полученное при помощи алгоритма Water, поскольку оно обладает большим счетом (10931.0 > 10919.5), большим числом соответствий (39.7% > 37.0%) и меньшим количеством gap'ов (49.4% < 52.9%).
