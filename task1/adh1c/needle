@@ -1,0 +1,1489 @@
+########################################
+# Program: needle
+# Rundate: Wed 29 Mar 2023 20:43:35
+# Commandline: needle
+#    -auto
+#    -stdout
+#    -asequence emboss_needle-I20230329-204304-0007-91001021-p1m.aupfile
+#    -bsequence emboss_needle-I20230329-204304-0007-91001021-p1m.bupfile
+#    -datafile EDNAFULL
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -endopen 10.0
+#    -endextend 0.5
+#    -aformat3 pair
+#    -snucleotide1
+#    -snucleotide2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: c99352746-99336497
+# 2: 7550665-7560991
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 18070
+# Identity:    6680/18070 (37.0%)
+# Similarity:  6680/18070 (37.0%)
+# Gaps:        9563/18070 (52.9%)
+# Score: 10919.5
+#
+#
+#=======================================
+
+c99352746-993      1 ATGCACTCAAGCAGAGAAGAAATCCACAAGTACTCACCAGCCTCCTGGTC     50
+
+7550665-75609      1 --------------------------------------------------      0
+
+c99352746-993     51 TGCAGAGAAGACAGAATCAATATGAGCACAGCAGGAAAAGTAAGCAAAAA    100
+
+7550665-75609      1 --------------------------------------------------      0
+
+c99352746-993    101 ATATATTACTGTTGATAATATATTCTCTTCAATATAACAAATAAAGGAAT    150
+
+7550665-75609      1 --------------------------------------------------      0
+
+c99352746-993    151 ACAGTATTAATAATGAATAATTTAAAATTTAAAATTCATATCTAAATTAG    200
+
+7550665-75609      1 --------------------------------------------------      0
+
+c99352746-993    201 ATGATGAATAATTTAAAATTCATATCTAAATTAGAAATGATACACTGGAA    250
+
+7550665-75609      1 --------------------------------------------------      0
+
+c99352746-993    251 TATGATATGCAATATATGCTATAATATGTAATGTATACTGAACTACAGTG    300
+
+7550665-75609      1 --------------------------------------------------      0
+
+c99352746-993    301 GAAATAAGCTATTCCTAAATACCTTCAAAAAGAATATATAGAATCTGTAT    350
+
+7550665-75609      1 --------------------------------------------------      0
+
+c99352746-993    351 CTATTGTCTTTATTTCCTACATTAAATAAATTTGCCGTAAAGTGATAGTT    400
+
+7550665-75609      1 --------------------------------------------------      0
+
+c99352746-993    401 TATTCCAAGCTAATCATGACTGATTTGTAAACCTAAAGTTAGAAAAGTCT    450
+
+7550665-75609      1 --------------------------------------------------      0
+
+c99352746-993    451 TTAATCAGAAGCTATCTTTATATTAAGAAAGCATAATTTAAATGTGTTAT    500
+
+7550665-75609      1 --------------------------------------------------      0
+
+c99352746-993    501 TATTTGTATTCATATTTTTTGTGAACACAAGAAGTCTGACAAA---ACTT    547
+                                           |...|.|||  |||.||..||   ||||
+7550665-75609      1 ----------------------GGCTAAAAG--GTCGGAGCAATGCACTT     26
+
+c99352746-993    548 TTATGAGAGGGATTTGAGAAGATTTTGAAATATACTTTTAATCT--TACT    595
+                     ..|.|||             .|.||||  .||.||    ||.||  ||||
+7550665-75609     27 GCAGGAG-------------CACTTTG--CTAGAC----AAGCTTCTACT     57
+
+c99352746-993    596 ATAAAATATCTT--ACAAAATACTCATTGATCTCACAGCATTAGAATCAT    643
+                     .||       ||  |||          .||.||    ||   |||||||.
+7550665-75609     58 GTA-------TTGGACA----------GGACCT----GC---AGAATCAG     83
+
+c99352746-993    644 CAAGGTTAAGCAAGACATCACATTCAAATTCCGTTTAAAGGGGGCCCATT    693
+                     ||| ..|.|||   .|.||||                     |||
+7550665-75609     84 CAA-CCTGAGC---GCTTCAC---------------------GGC-----    103
+
+c99352746-993    694 ATGACACAATTCAGGCAATTTCCAC-AGAAATC------------TTATG    730
+                      ||||.||.|.|      ||..||| |||||||            .|.||
+7550665-75609    104 -TGACCCAGTCC------TTGGCACAAGAAATCAGTGGTGGCAAGATCTG    146
+
+c99352746-993    731 GAACAGTATCTCCCCTATATAAAAGTCAATATGATCTTACAGAAAAATAA    780
+                     .|||||...|.||          ||||||.||||.|  ||||
+7550665-75609    147 AAACAGACACGCC----------AGTCAACATGAGC--ACAG--------    176
+
+c99352746-993    781 TAATGCAATTTGAATCACTTATTAGCACTCAGAACACAAATATTTGTTTT    830
+                      .|.||||               ||.|..|||||         .||||||
+7550665-75609    177 -CAGGCAA---------------AGTAAGCAGAA---------ATGTTTT    201
+
+c99352746-993    831 TTCTTCTATAAA--TTTATACTTATTT-TTCAATGT----GTTTACAGGT    873
+                           ||||||  |||.|..||.||| ||   |||    ||||   ||
+7550665-75609    202 ------TATAAAAGTTTTTGTTTGTTTGTT---TGTTTTGGTTT---GG-    238
+
+c99352746-993    874 GCACAGAAATGCATGTGGTCATTCAATATAATCAATTGATATTATTAATT    923
+                                  |.||||                |||.|.|| ||..||
+7550665-75609    239 -------------TTTGGT----------------TTGGTGTT-TTTTTT    258
+
+c99352746-993    924 GCCTAATTTAAAAAAATCTGTGCAACTATTTCCAGCCATTTGTTGTGCT-    972
+                     |..|..|||         |||                 ||||||.|.||
+7550665-75609    259 GTTTTGTTT---------TGT-----------------TTTGTTTTTCTG    282
+
+c99352746-993    973 ------AGGAGTGTATCACACAATAAAACACCTCACTATGATAATTCAGT   1016
+                           ||.|.||||||..|                      |||.||||
+7550665-75609    283 CAGCTGAGTAATGTATCTTA----------------------AATGCAGT    310
+
+c99352746-993   1017 TTAAAGGTTCTGAGGCTTACCTTTATGCTGTGC---GACAAAACAGGCTC   1063
+                     ||                         ||.|||   ||||..|||
+7550665-75609    311 TT-------------------------CTTTGCAGGGACACCACA-----    330
+
+c99352746-993   1064 ATGTCAATAAGACTGGT----TGG---AAATCACA-----TGAG-----T   1096
+                             ||.||||||    |||   ||||.|||     .|||     |
+7550665-75609    331 --------AATACTGGTAGTATGGTATAAATGACAGTTTTGGAGAAAGCT    372
+
+c99352746-993   1097 GGCCCAT-TGGTA---CTG----TTCTTACACCACTTCACTTTACTTTAC   1138
+                     ||    | |||||   |||    |.|||.||..|   |.||.|||..|.|
+7550665-75609    373 GG----TATGGTAGAGCTGCCGTTCCTTGCAGAA---CGCTGTACGCTCC    415
+
+c99352746-993   1139 TTTCATTCATTATTGATTAATATTTACATTCCTCATAGAAAATAATTAGA   1188
+                     |...|      |.||.|||    |||||.||.||| ||..|||||||
+7550665-75609    416 TAGGA------AATGGTTA----TTACACTCTTCA-AGGCAATAATT---    451
+
+c99352746-993   1189 AAAAAGAAAATTTAAATTTACCATTTACTAAACTCGACTTAAAAGAAATA   1238
+                              |||||..|     .||||.|         ||     |||||
+7550665-75609    452 ---------ATTTATGT-----GTTTATT---------TT-----AAATA    473
+
+c99352746-993   1239 ATGAGTTCATAGAGCAAAAGTATAAACCAAT----CATTAATGAAAATAA   1284
+                     .||||        ||   ||.||||.|.|||    |...|||||.|||
+7550665-75609    474 CTGAG--------GC---AGCATAAGCTAATGGTGCTAGAATGAGAAT--    510
+
+c99352746-993   1285 TAACTGATGAAATAGATAATCCTCCCCTCTTGAGTGCAA-CATCAATAAC   1333
+                                     |||..|.||||     ||.|||| ||
+7550665-75609    511 ----------------TAAGTCACCCC-----AGGGCAAGCA--------    531
+
+c99352746-993   1334 TTAGCTTTTTGACAGCATTTCATTTATGTTTACCCGTCCTGCATTTTATT   1383
+                       |||                  |.||.||||||
+7550665-75609    532 --AGC------------------TAATTTTTACC----------------    545
+
+c99352746-993   1384 TTCCTCAATCCTAAATTGTGACAATACTAATGTCTATTTCATAAGGTA--   1431
+                                                     |||.||..|.||.|||
+7550665-75609    546 --------------------------------TCTGTTATAGAATGTAGT    563
+
+c99352746-993   1432 GTTGTGAGAATTCAG-TAAATTAATAGTGAAAAGCACTTA----------   1470
+                     ||.||.||..||||| |||||        |||||.|.|||
+7550665-75609    564 GTAGTAAGTGTTCAGATAAAT--------AAAAGTATTTACCAGCTGTGT    605
+
+c99352746-993   1471 -GAAT---AGTACCTGGTAAAT--AAAAATAAGTCAATAAATATTAGCCA   1514
+                      ||.|   |.|  |||  |.||  |||..||..||||            |
+7550665-75609    606 TGATTCCCATT--CTG--AGATCCAAAGCTAGTTCAA------------A    639
+
+c99352746-993   1515 CTGTTATTATTGTTGCTTTATAACTTTTTGATATTTACTACCACGGAGTA   1564
+                     ||||||             .||.|||.||||.||||.|.|.||  |..||
+7550665-75609    640 CTGTTA-------------CTAGCTTCTTGACATTTCCCATCA--GTTTA    674
+
+c99352746-993   1565 ---------------CAGAAAACG-TGAGGCTACATTAATTTTTTCATTC   1598
+                                    ||||||||| ||.|      |||  |.||||| ..
+7550665-75609    675 TTAATGGCTTGTCTTCAGAAAACGTTGTG------TTA--TATTTCA-GG    715
+
+c99352746-993   1599 GTTTTTTTGTTTGGAGATGGAGTATCTTTCTATTGCCCAG-------GTT   1641
+                     ||||.|||||.|..|||                    |||       |||
+7550665-75609    716 GTTTGTTTGTGTTAAGA--------------------CAGTCATGAAGTT    745
+
+c99352746-993   1642 GGAGT--GCA-ATGGTGA-TCTCGGCTCACTGCAACCTCTGCCTCCCGGG   1687
+                     .||.|  ||| ||.|||| |||           ||            |||
+7550665-75609    746 TGAATACGCATATAGTGAGTCT-----------AA------------GGG    772
+
+c99352746-993   1688 TTCAAG----TGATTCTCCTGCCTCAGCCTCACAAGTAGCTGAGT-TTAC   1732
+                     || |||    |||            ||.| ||.|||    .|||| |.||
+7550665-75609    773 TT-AAGTTAATGA------------AGAC-CAAAAG----CGAGTATCAC    804
+
+c99352746-993   1733 AGGTACACGCC--ACCATGCTTGG-------CTAAT-TTTAGCATTTTT-   1771
+                     |.|.| |.|||  ||...|||.||       |.||| |||| |||.|.|
+7550665-75609    805 ATGCA-ATGCCGTACTGAGCTGGGACTGAATCGAATATTTA-CATCTCTG    852
+
+c99352746-993   1772 ------AGT----AGAGACAG---GGTTTC-ACCATGTTGGTCAGGCTGG   1807
+                           |||    ||||||||   ||||.| ||||           |||
+7550665-75609    853 ATAGAAAGTGATGAGAGACAGTGAGGTTGCTACCA-----------CTG-    890
+
+c99352746-993   1808 TCTCCAACTCTTGACTTCAGGTG-ATCCGCCCACCTCGGCCTCCCAAAGT   1856
+                            |||.||   ||| ||| |||                   |||
+7550665-75609    891 -------CTCATG---TCA-GTGTATC-------------------AAG-    909
+
+c99352746-993   1857 GCTGGGATTAAAGGGATGGGCAACTGCACCCGGCCTGATCTTTATTCTCT   1906
+                                                                .|||||.
+7550665-75609    910 -------------------------------------------CTTCTCA    916
+
+c99352746-993   1907 GGACAGCCAGCTTTGAGA--CTTCAGGAAAATTATTCAATCACTGAGTCA   1954
+                     |    ||.|.||..||||  ||     |||||       .|||||
+7550665-75609    917 G----GCTACCTGAGAGATGCT-----AAAAT-------GCACTG-----    945
+
+c99352746-993   1955 GTTGATCCTCAATTATTTCAGATGTAGTAAGACCAATAATTCAATAGTAC   2004
+                               ||.|||..||||      |||        .|||||.|
+7550665-75609    946 ----------AAATATGGCAGA------AAG--------GTCAATGG---    968
+
+c99352746-993   2005 TGTCCTGGTAGCATCCGTTTTAGGTTTAAAAGTAATTCATATTGTTTACA   2054
+                                                 |.||.||..||||
+7550665-75609    969 ----------------------------AGAGGAAGCCATA---------    981
+
+c99352746-993   2055 GCAGCACAATTTGCAATTGCAAAAATATGGAAACTTCCTAAATGCCCATC   2104
+                         ||||                     ||        |||.|||
+7550665-75609    982 ----CACA---------------------GA--------AAACGCC----    994
+
+c99352746-993   2105 AACCAACGAGTGGATAAAGAGAATG--------TGGTATATGTACACCAT   2146
+                                   |.||| |||||        |||.||.||    ||.|
+7550665-75609    995 --------------TGAAG-GAATGCACCTTGCTGGAATGTG----CCTT   1025
+
+c99352746-993   2147 GAGATACTACTCAGCCATAAAATGGAACAAAATAATGGCCTT-TGCAGCC   2195
+                     .|||.|.||| |||                      |.|||| |||.||.
+7550665-75609   1026 AAGAAAGTAC-CAG----------------------GACCTTGTGCTGCT   1052
+
+c99352746-993   2196 ACTTGGATG-AAGCTGAAGGCCATTATTTTAAGTGAAGTAACTCAGGAAT   2244
+                     ||     || .|||||        |.|||        |..||||..||..
+7550665-75609   1053 AC-----TGCCAGCTG--------TCTTT--------GCTACTCCAGAGC   1081
+
+c99352746-993   2245 GGAAAACCAAATACCATATGGTCTCACTTATAAGTGGGAGCTAAGCTATG   2294
+                     .|||   ||||                  |.|||.|.||          |
+7550665-75609   1082 TGAA---CAAA------------------ACAAGAGAGA----------G   1100
+
+c99352746-993   2295 AGGATACAAAGGCATAAGAATGATATAGAGGACTTTGGTTAGGGATAAAA   2344
+                     ||||.|.|||            ||||                  ||||||
+7550665-75609   1101 AGGAAAAAAA------------ATAT------------------ATAAAA   1120
+
+c99352746-993   2345 GACTACACGTTGGATACAGTGT-------ACACTGCTCGGGTGACACATG   2387
+                     .|               ||.||       ||.|||          |.||.
+7550665-75609   1121 TA---------------AGGGTTTCTTTAACTCTG----------AGATA   1145
+
+c99352746-993   2388 CAGCAAATCTCAAAAACCACCACTAAAGAACTTATCCATGTAATCAAAAA   2437
+                     ||||||
+7550665-75609   1146 CAGCAA--------------------------------------------   1151
+
+c99352746-993   2438 CAACCTGCACCCCAAAAACTATTGAAATTAAAAATAAATAAATTTTAAAA   2487
+                         .||||                          ||||.|||||
+7550665-75609   1152 ----GTGCA--------------------------AAATTAATTT-----   1166
+
+c99352746-993   2488 ATAAAAATAATGCATGT-------AACTCACTCAGCACAAGCCACAGTGC   2530
+                            ||||.|||||       ||.|||      |||||
+7550665-75609   1167 -------TAATTCATGTGGGGGTAAATTCA------ACAAG---------   1194
+
+c99352746-993   2531 ACCTGTCACATCAT--AGGC----ACCTGACAATCAGAAACTCCT--ACT   2572
+                      ..||.|.|.||||  ||.|    | ||||.|.|||.||    ||  |.|
+7550665-75609   1195 -TTTGGCCCTTCATTCAGCCTTCGA-CTGAGAGTCATAA----CTAAAGT   1238
+
+c99352746-993   2573 ATTAGA--------------ACTTTATTTCCAAGTATTCTGATATTTAT-   2607
+                     ||| ||              |||||.|||.||      |||       |
+7550665-75609   1239 ATT-GAGGAGGACCTAAACCACTTTGTTTTCA------CTG-------TG   1274
+
+c99352746-993   2608 TTTGGCATGGACCACATTGAAAATCCTGCAAAGTTGAAGGATTTGACAAA   2657
+                     ||||.|.||||.|                              |.|.|.|
+7550665-75609   1275 TTTGTCTTGGAGC------------------------------TAATACA   1294
+
+c99352746-993   2658 TGAATAA---TGAAAATTAATTGGCAGAAGATGAAATTTCAATTGAATTT   2704
+                     |||.|.|   ||.|.||||.||||              |||  ||.|
+7550665-75609   1295 TGAGTTACCGTGCAGATTACTTGG--------------TCA--TGCA---   1325
+
+c99352746-993   2705 TTATTATATTTGCAATTATGTTGATTCTGTAAAGAAAGAGCTCAGTGAAT   2754
+                     ..||.||.|||||          ..|||||     |||||
+7550665-75609   1326 GCATGATCTTTGC----------CCTCTGT-----AAGAG----------   1350
+
+c99352746-993   2755 TGTACATGCTTTACCACAATAAAGATGGGTTTTACAGTACACTGCCAAGC   2804
+                                            |.||.||||         ||||  |||
+7550665-75609   1351 -----------------------GGTGTGTTT---------CTGC--AGC   1366
+
+c99352746-993   2805 --ACTGGAAATATGTGATCAGCTTTTATTTTTAAGGACATCT-GTGGATA   2851
+                       ||             |||.|...|..||.|||||    || |||||.|
+7550665-75609   1367 TTAC-------------TCACCCCCTGCTTGTAAGG----CTGGTGGAAA   1399
+
+c99352746-993   2852 AGCTTGCTAG--CTAGAAACTCAAATACACAGTTTCT--------CCAGT   2891
+                     |      .||  .|||||| ..|||||.|..|.|.||        |||||
+7550665-75609   1400 A------CAGGAATAGAAA-AAAAATAAAATGCTGCTGACTCCAGCCAGT   1442
+
+c99352746-993   2892 TTTT----AAATACATGTGTGTGGTCTGAATGCACACACACACACACACA   2937
+                     |.||    .||.|.||..||..|||..|||.|
+7550665-75609   1443 TCTTGCTGTAAGAGATCAGTTGGGTGAGAAGG------------------   1474
+
+c99352746-993   2938 CACAGAAACACACATACACAACACCAACTCTAACCTCTGTAATTTTGGGC   2987
+                                                          ||.||.||.|.||
+7550665-75609   1475 -------------------------------------TGCAAGTTGGTGC   1487
+
+c99352746-993   2988 TCAAATCTAAGCTGGAAGGAGTCTCTGCACATAAATTAGATGAACAAAAC   3037
+                         ||||   ||||     |.|.||||   ||
+7550665-75609   1488 ----ATCT---CTGG-----GACCCTGC---TA-----------------   1505
+
+c99352746-993   3038 AGGCTGCCAAAGCTAAGTTTCAAATGGGTGTTTGAGACAAGT-AACACAG   3086
+                     .|||||.|||    ||| ||||.|   |.|..|.||.|  || |.|||||
+7550665-75609   1506 TGGCTGACAA----AAG-TTCACA---GGGCATCAGCC--GTCAGCACAG   1545
+
+c99352746-993   3087 AAGTGGAGAGAGAAAATTAA-AAGAGGACAATAGGCAAAT-AGAGAAAGA   3134
+                     |   |.||||      |||| .||.|...|||.|  .||| |||||.|||
+7550665-75609   1546 A---GCAGAG------TTAACCAGTGTCTAATTG--TAATGAGAGATAGA   1584
+
+c99352746-993   3135 GACATCATCCTAAGCAG--GAAGGTAAATGTATAACTGTTTTTATGGAGT   3182
+                        .|..|.||.|||||  .|.|||.|.||    .|||.|||| ||
+7550665-75609   1585 ---TTTGTTCTCAGCAGTCCACGGTTATTG----GCTGCTTTT-TG----   1622
+
+c99352746-993   3183 CAGATCCTTTTGGCCTAAGCAGAAAATTGAGCAAGAAAGCAGTGTATTTT   3232
+                         |.||||                          ||||..||.||||.
+7550665-75609   1623 ----TTCTTT--------------------------AAGCTCTGCATTTG   1642
+
+c99352746-993   3233 GGACAGACACTGACTCTGTCAGCAAAGTAAAGGTGACTTAGAACATGTAC   3282
+                     .|
+7550665-75609   1643 CG------------------------------------------------   1644
+
+c99352746-993   3283 CAGCCAATAGTTGTGGGTAAACAGTTGTCTTCAGGACAGTGTTAGAAAAT   3332
+                             ||||||  ||||.|| ||.||.|..||  .|||..|||.|.|
+7550665-75609   1645 --------AGTTGT--GTAATCA-TTATCGTGCGG--TGTGCGAGAGAGT   1681
+
+c99352746-993   3333 ATCAGGATTAAACATCTTTGGAGAAAAAAAAA--------------TCAA   3368
+                     |       ||||.|       |.||.||.|||              ||.|
+7550665-75609   1682 A-------TAAATA-------AAAATAATAAAGCCCTTTTTTTTTTTCTA   1717
+
+c99352746-993   3369 AAGAA--------------TAAATGGTGCTGGGAAAACTGGCTAGCCATA   3404
+                     |||||              ||||||.|||                ||
+7550665-75609   1718 AAGAATTTCCTCTGTCCTTTAAATGTTGC----------------CC---   1748
+
+c99352746-993   3405 TGTAGAAAGCTGAAACTGGATCCCTTCCTTACACCTTATACAAAAATTAA   3454
+                     |.|| |||.||       ||||..|..||| || |||.|    |||||..
+7550665-75609   1749 TTTA-AAATCT-------GATCTTTGGCTT-CA-CTTGT----AAATTTT   1784
+
+c99352746-993   3455 TTCAAGATGGATTAAAGACTTAAACGTTAGACCTAAAACCATAAAAACCC   3504
+                     ||...|||.|      .||||..||||
+7550665-75609   1785 TTACTGATCG------CACTTGCACGT-----------------------   1805
+
+c99352746-993   3505 TAGAAGAAAACCTAGGCATTACCATTCAGGACATAGGCATGGGCAAGGAC   3554
+                                                        ||||.|.|
+7550665-75609   1806 -----------------------------------GGCACGTG-------   1813
+
+c99352746-993   3555 TTCATGTCTAAAACACCAAAAGCAATGGCAACAAAAGCCAAAATTGA---   3601
+                                        |||||.|              |||||.|
+7550665-75609   1814 -------------------AAGCATT--------------AAATTTAGTG   1830
+
+c99352746-993   3602 CAAATGGGATCTAATTAAACTCAAGAG-CTTCTGCACAGCAAAAGAAACT   3650
+                     ||.|||   |||       |||.||.| |||.|.||         ||||
+7550665-75609   1831 CAGATG---TCT-------CTCGAGTGTCTTTTTCA---------AAAC-   1860
+
+c99352746-993   3651 ACCATCAGAGTGAAAAGG--CAACCTACAAAATGGGAGAAAATTTTCG--   3696
+                             |.||   .||  |..||.||                ||||
+7550665-75609   1861 --------ACTG---TGGTCCTTCCGAC----------------TTCGTG   1883
+
+c99352746-993   3697 -CAACCTACTCATCTGACAAAGGGCTAATATCCAGAATCTACAATGAACT   3745
+                      |..|||.|||      |..||.|||..|.|      |||.||.|
+7550665-75609   1884 TCTGCCTGCTC------CCTAGTGCTTGTCT------TCTTCACT-----   1916
+
+c99352746-993   3746 CAAACAAATTTACAAGAAAAAAACAAACAACCCCATCAAAAAGTGGGCGA   3795
+                        ||.|.||.|||||
+7550665-75609   1917 ---ACCAGTTGACAAG----------------------------------   1929
+
+c99352746-993   3796 AGGACATGAACAGACACTTCT--CAAAAGAAGACATTTATGCAGCCAAAA   3843
+                                      ||||  |.||         |||.|||.|
+7550665-75609   1930 -----------------TTCTTGCTAA---------TTAGGCATC-----   1948
+
+c99352746-993   3844 AACACATGAAAAAATGTTCATCATCACTGGCCATCAGAGAAATGCAAATC   3893
+                                   ||||    .|.|||                    ||
+7550665-75609   1949 --------------TGTT----TTTACT--------------------TC   1960
+
+c99352746-993   3894 AAAATCACAATGAGATACCATCTCACACCAGTTAGAA--TGGCAGTCATT   3941
+                     ||||.|    |..||||              |.||||  |.||..||.|
+7550665-75609   1961 AAAAGC----TTTGATA--------------TGAGAAGGTTGCTATCGT-   1991
+
+c99352746-993   3942 AAAAAGTCAGGAAACAACAG----GTGCTGGAGAGGATGTGGAGAAATAG   3987
+                           ||.|    ||.|||    ||||.|.|.|    ||||
+7550665-75609   1992 ------TCCG----CACCAGAATCGTGCGGTACA----GTGG--------   2019
+
+c99352746-993   3988 GAACGCTTTTACACTGTTGGTGGGACTGTAAACTAGTTCAACCATTGTGG   4037
+                           |.||||||||
+7550665-75609   2020 ------TGTTACACTG----------------------------------   2029
+
+c99352746-993   4038 AAGTCAGTGTGGCGATTCCTCAGGGATCTAGAACTGGAAATACCATTTGA   4087
+                                       |.||||..||
+7550665-75609   2030 ------------------CACAGGAGTC----------------------   2039
+
+c99352746-993   4088 CCCAGCCATCCCATTACTGGGTATATACCCAAAGGACTATAAATCATGCT   4137
+                     |||||.|||.|                     |||          |||||
+7550665-75609   2040 CCCAGTCATGC---------------------AGG----------ATGCT   2058
+
+c99352746-993   4138 GCTATAAAGACACATGCACACGTATG--TTTATTGCCGCATTATTCACAA   4185
+                             .|..|||||||     ||  |||.|||      ||||
+7550665-75609   2059 --------TAGGCATGCAC-----TGAATTTCTTG------TATT-----   2084
+
+c99352746-993   4186 TAGCAAAGACTTGGAACCAACCCAAATGTCCAACAATGATAGACTGGATT   4235
+                       |..|||||                                    ||||
+7550665-75609   2085 --GTCAAGAC------------------------------------GATT   2096
+
+c99352746-993   4236 AAGAAAATGTGGCACATATACACCATGGAATACTATGCAGCCA-------   4278
+                                           ||       ||..||||||||
+7550665-75609   2097 ----------------------CC-------ACCTTGCAGCCACGGAACT   2117
+
+c99352746-993   4279 TAAAAAATGATGAGTTCATGTCCT-TTG-----TAGG--GACATGGATGA   4320
+                     |||      |.||| |||    || |||     .|||  |||||||||
+7550665-75609   2118 TAA------AGGAG-TCA----CTGTTGGCCACAAGGGAGACATGGAT--   2154
+
+c99352746-993   4321 AGCTGGAAATCATCATTCTCAGTAAACTATCGCAAGAACAAAAAACCAAA   4370
+                             |.|.|.||||
+7550665-75609   2155 --------AACCTTATTC--------------------------------   2164
+
+c99352746-993   4371 CACCGCATATTC-----TCACTCATAG--GTGGAAATTGAACAATGAGAT   4413
+                          |||.|.|     ||..|.|.||  ||||.|  |||.||  ||.|.
+7550665-75609   2165 -----CATGTCCTGGAGTCCTTTAAAGCTGTGGGA--TGAGCA--GACAC   2205
+
+c99352746-993   4414 CACATGGACACAGGAAGGGGAATATCACACTCTGGGGACTATTG--TGGG   4461
+                     ||||..||.|.||                   ||||    ||||  |
+7550665-75609   2206 CACAAAGAAAGAG-------------------TGGG----ATTGAAT---   2229
+
+c99352746-993   4462 GTGGGGGGAGGGGGGAGGGATAGCATTGGGAGATATACCTAATGCTAGAT   4511
+                     |||||                ||||    |||||||           ||
+7550665-75609   2230 GTGGG----------------AGCA----GAGATAT-----------GA-   2247
+
+c99352746-993   4512 GACGAGTTAGTGGGTGCAGCGCACCAGCATGGCACATATATACATATGTA   4561
+                      ||.|   |||     |||       ||.|||
+7550665-75609   2248 -ACAA---AGT-----CAG-------GCGTGG------------------   2263
+
+c99352746-993   4562 ACTAACCTGCACAATGTGCACATGTACCCTAAAACTTAAAGTATAATTAA   4611
+                         .|.||      |||     |||                      ||
+7550665-75609   2264 ----TCTTG------GTG-----GTA----------------------AA   2276
+
+c99352746-993   4612 AAAAACAT----TCAAAAAAAATAAAATAAAATAAAAAAGAATAACCTAA   4657
+                     ||||||||    |                                  ||.
+7550665-75609   2277 AAAAACATGGGCT----------------------------------TAC   2292
+
+c99352746-993   4658 ATGAATATATTCCATTTTATCTAAGTGCCTTATTGTACTTAACTCTGTTT   4707
+                     |||.|||||   ||..|      |||   ||..|||         ||.||
+7550665-75609   2293 ATGTATATA---CAGAT------AGT---TTGGTGT---------TGGTT   2321
+
+c99352746-993   4708 ATCTTTCCTTATGTT-ATTGCTTTTTTAAAAGATACTCTTATTCTCTTTA   4756
+                     .|.||   ||.|||| |||..|||||               ||||||.|
+7550665-75609   2322 GTGTT---TTCTGTTCATTTGTTTTT---------------TTCTCTCT-   2352
+
+c99352746-993   4757 TAAACCAGAGGACTTCATTT-----CTATGCAACACTTGTTAGGTGCCAG   4801
+                              ||      |||     |||..|||     |.||.|.||..|
+7550665-75609   2353 ---------GG------TTTTCCCCCTACCCAA-----GATACGAGCAGG   2382
+
+c99352746-993   4802 ACATGGGACTCAATGTTGCATGTACAAAGATGAAAAGACACAATTTCTGA   4851
+                                |||.|||||||||.|||..|.|.||         ||||.
+7550665-75609   2383 -----------AATTTTGCATGTAGAAATGTAAGAA---------TCTGT   2412
+
+c99352746-993   4852 CT-------GCAAGC------GTGGGAAAACACTGGTACCAT---CT---   4882
+                     ||       ||.|.|      |||        |.|||.||||   ||
+7550665-75609   2413 CTTGGTGTGGCGACCTTCCCAGTG--------CAGGTGCCATTCCCTTTT   2454
+
+c99352746-993   4883 -CTCTG-TCTGATGTTCTAGGTAATCAAATGCAAAGCAGCTGTGCTATGG   4930
+                      ||.|| |||  |.||..||||.||.||||||||.|||||.||.||.|||
+7550665-75609   2455 CCTTTGCTCT--TTTTGCAGGTTATTAAATGCAAGGCAGCAGTACTGTGG   2502
+
+c99352746-993   4931 GAGTTAAAGAAACCCTTTTCCATTGAGGAGGTAGAGGTTGCACCTCCTAA   4980
+                     ||....||.|||||.|||||.||.|||||.||.||.|||||.||.||.||
+7550665-75609   2503 GAAGCCAATAAACCATTTTCTATCGAGGATGTGGAAGTTGCCCCACCAAA   2552
+
+c99352746-993   4981 GGCTCATGAAGTTCGCATTAAGGT-----GAAAT-ACTTTTTCCATTTGT   5024
+                     .||.||||||||||||||||||||     .|||| |.|..|.|.|.|||.
+7550665-75609   2553 AGCACATGAAGTTCGCATTAAGGTACTTAAAAATAAGTGCTACGAATTGC   2602
+
+c99352746-993   5025 ATTTAAT-TTTAAGTTTAAAGAATTCAGAAAATATTAAAAATAGAAACAT   5073
+                     |||.||| ||...|||      |.||| .||.||||
+7550665-75609   2603 ATTCAATCTTGCTGTT------AGTCA-CAATTATT--------------   2631
+
+c99352746-993   5074 CCAAAATCCACTAGAGGTATTTTTTATATAATTATCCA------GAAAAT   5117
+                              .||||||||        |||.|..|||||      ||||||
+7550665-75609   2632 ---------TCTAGAGGT--------TATTAGGATCCAGTCTTGGAAAAT   2664
+
+c99352746-993   5118 AAAATTACATTTGTTGTCAAGGAAAGTATAAATTGTTAAATTTTTT----   5163
+                     |            ||..|.|||..||||      ||||   .|.||
+7550665-75609   2665 A------------TTAACTAGGTGAGTA------GTTA---CTATTCAGG   2693
+
+c99352746-993   5164 ----TAAAGTGGGCAAACAGTATATGAAGGATAACTCC--AGTGAAATAC   5207
+                         ||..||||   |||| ||..|.|||      |||  ||||..|| |
+7550665-75609   2694 GAGATACTGTGG---AACA-TACTTCAAG------TCCTAAGTGTGAT-C   2732
+
+c99352746-993   5208 A-----AAAGAATTTATAGGTTTG---TACAGAAAAAAATGCA----AAG   5245
+                     |     .|.|..|||||..|||||   |..|..||.|.||.||    |||
+7550665-75609   2733 ATGGGTCAGGTTTTTATTTGTTTGTTTTTTAATAACATATCCACAACAAG   2782
+
+c99352746-993   5246 GGATATATATCAAGAGTTCAC----AATCAA----TTTGCATTAGATATT   5287
+                     |.|.|.||.|.||    ||.|    ||.|||    ||..|.||   ||.|
+7550665-75609   2783 GCAAACATCTGAA----TCCCCAGGAAGCAAGATTTTCTCCTT---TACT   2825
+
+c99352746-993   5288 TTCTTGGTGTTAATTTGCAATTTCTA------------------------   5313
+                     |||||.|    |||.||    |.|||
+7550665-75609   2826 TTCTTAG----AATATG----TGCTAGGAAACCGCTCGGCATGGCTGGGT   2867
+
+c99352746-993   5314 --CTTCTTTTTCTTTTAACTAT---GCATTCTTCTATATTATACAAGACA   5358
+                       ||.|||||||.|.|...|||   ||        ||.|.|||| ||.||
+7550665-75609   2868 GCCTCCTTTTTCATCTGGGTATTGAGC--------ATCTGATAC-AGTCA   2908
+
+c99352746-993   5359 AA------AATTTTAGGATCAATTATCTCACAG-ATTATTCTA-------   5394
+                     .|      .|||||| ||.||.||   ||| || |||.||| |
+7550665-75609   2909 GATGTTTTCATTTTA-GAGCAGTT---TCA-AGCATTGTTC-AGGAGAGG   2952
+
+c99352746-993   5395 --------------------------AATTGTTAAATTCAAGGGAAAAAG   5418
+                                               |.||||.|||.|       |||||
+7550665-75609   2953 TTTCCTCACTTGGGGTCAGTGGCTGCACTTGTCAAAAT-------AAAAG   2995
+
+c99352746-993   5419 ------AG--------GAAGGTTTTAGA---------------CTGGAT-   5438
+                           ||        |||.||||||.|               |||.||
+7550665-75609   2996 CTGTAAAGGCATACCTGAAAGTTTTAAAAGAAATATGGCTGTGCTGAATG   3045
+
+c99352746-993   5439 -AA--------------CCTTGGAGATAAA----------CTGAATCTTT   5463
+                      ||              |..||.||| |.|          ||||||.|||
+7550665-75609   3046 CAAGAAAAGGCAAAATGCAATGTAGA-ATACTACGTATGGCTGAATTTTT   3094
+
+c99352746-993   5464 -------------CATATTTGGGAATAGTAGGGATTATCAG---CAAAAC   5497
+                                  ||.|..||||.|.|      ||.||.||   ||.|||
+7550665-75609   3095 TTGTCTGAAACAACACAAATGGGGACA------ATCATGAGTCACATAAC   3138
+
+c99352746-993   5498 C----------CTTGAGAATATTTT-------TGAATAACAA-----TTT   5525
+                     |          .||.|||.||.|||       ||.||    |     |||
+7550665-75609   3139 CAAAGGCGTGAATTTAGATTAGTTTTATTGTGTGCAT----ATGTGGTTT   3184
+
+c99352746-993   5526 TAGA------AAATTGGGT---------------------TTG--TTAAG   5546
+                     |.||      |||.|||.|                     |||  ||..|
+7550665-75609   3185 TGGAGAGAAGAAAGTGGCTGCTCCAAATATATGACATACGTTGACTTCTG   3234
+
+c99352746-993   5547 TCCATCTGACA-GTC----ATAATCTTTTCTGAATCTAAACATCTT----   5587
+                     |  ||.||||| |.|    ||||   .|.|||||.|   || ||||
+7550665-75609   3235 T--ATGTGACATGACACGGATAA---ATGCTGAAGC---AC-TCTTGTTG   3275
+
+c99352746-993   5588 ---CTCTTTATTCTGTAGATGGTGGCTGCAGGAATCTGTCGTTCAGATGA   5634
+                        ||||..||    .||||..||||..|.||.||||||||.||.|||||
+7550665-75609   3276 TTCCTCTAAAT----CAGATCTTGGCCACGGGGATCTGTCGCTCCGATGA   3321
+
+c99352746-993   5635 GCATGTGGTTAGTGGCAACCTGGTGACCCCCCTTCCTGTGATTTTAGGCC   5684
+                     .||.|||||.|.|||.|.||||||.|..||..|.||..|.|||.|.||.|
+7550665-75609   3322 CCACGTGGTAACTGGAAGCCTGGTTATGCCTTTCCCAATAATTCTTGGGC   3371
+
+c99352746-993   5685 ATGAGGCAGCCGGCATCGTGGAAAGTGTTGGAGAAGGGGTGACTACAGTC   5734
+                     ||||||||||.||..|.|||||.||.|||||.||.||.||.|||.| ||.
+7550665-75609   3372 ATGAGGCAGCTGGTGTGGTGGAGAGCGTTGGGGAGGGAGTAACTTC-GTT   3420
+
+c99352746-993   5735 AAA-CCAGGT-----ACAG-GATTCACACTCAGGGAACA---------TG   5768
+                     ||| ||||||     |||| |  |.|||||    |||||         ||
+7550665-75609   3421 AAAGCCAGGTATGAAACAGCG--TAACACT----GAACACAAACCCCGTG   3464
+
+c99352746-993   5769 CCTTG-GTT------CACC-----ATCACAAGATTAGTCAGCCTGGATGA   5806
+                     |  || |||      |.||     ||..||.||||..||.|
+7550665-75609   3465 C--TGAGTTTTTAGACTCCTGTTTATGTCATGATTGTTCTG---------   3503
+
+c99352746-993   5807 GGAAACCGAGGCAATGAAAGACGAAAGGACTTGCA---------------   5841
+                              .|||.||||         .|||||.|
+7550665-75609   3504 ---------TGCACTGAA---------TACTTGTATTGCTGAGCGTGTTC   3535
+
+c99352746-993   5842 CAA-----GGTC-----ACAGG----------GAA--------GCTGGGA   5863
+                     |||     ||||     | |||          |||        |||
+7550665-75609   3536 CAACTTTGGGTCTTTTTA-AGGATATCTTAAAGAACAGTATGTGCT----   3580
+
+c99352746-993   5864 CTTCAGGGGTTTCCTCCTTC-CCTCTCTGCTTGCCTGA-CTCAAGCATGT   5911
+                             ||||    .||| |.|||.||..|.|||.| ||||   ||.|
+7550665-75609   3581 --------GTTT----GTTCACATCTTTGTGTTCCTAATCTCA---ATTT   3615
+
+c99352746-993   5912 ATGACTTCAG--------GCA-------------------GGCA------   5928
+                     ||  .|||||        |||                   ||||
+7550665-75609   3616 AT--TTTCAGATTTTTTTGCATTCCATTTCATTTGCTGTTGGCAAAAACA   3663
+
+c99352746-993   5929 --TGCGTGTATTCTAC----CCTTCAACCATTA------------TGTA-   5959
+                       |||         ||    |.|||.|.||.||            ||||
+7550665-75609   3664 TCTGC---------ACCTTGCTTTCCATCAGTATAGTGCTTTTCCTGTAG   3704
+
+c99352746-993   5960 -----CTACT-------AGATG---CCAGG--------------------   5974
+                          ||.||       |||.|   |||||
+7550665-75609   3705 GTTCTCTGCTCTTGGTCAGAGGAAACCAGGTATTGGCTGAAGACTTTGTA   3754
+
+c99352746-993   5975 --CACTAGGTTAGAGC-----------CTGGAGA--TATATGAGGAT---   6006
+                       ||| ||.|||.| |           ||..|||  .||||.||.||
+7550665-75609   3755 ATCAC-AGTTTATA-CAACTAATCTCTCTCAAGAATAATATAAGTATAGT   3802
+
+c99352746-993   6007 ---------------CAAAAG----AGAC-ACAGTG--------CCTACC   6028
+                                    .|||||    |||| ||| ||        |||.|
+7550665-75609   3803 TTATCATCCCTTGGGAAAAAGCACTAGACAACA-TGTTAAAGCACCTTC-   3850
+
+c99352746-993   6029 AGTGTGGAATTC-------------ATAATCTAGTAACTTCCACGTTAGT   6065
+                             ||||             ||||||||.|||||      ||||
+7550665-75609   3851 --------ATTCTCCTAACATCTAAATAATCTATTAACT------TTAG-   3885
+
+c99352746-993   6066 GTTAGCTGAACACT---GTCTTCTGTAAGTGCCCAAAAAACTAT------   6106
+                       |||.|.|..|||   ||||| |||  |||.|      |.|||
+7550665-75609   3886 --TAGATCAGAACTTAGGTCTT-TGT--GTGGC------ATTATTTCATT   3924
+
+c99352746-993   6107 ----AAATGGGAGGGGAGAAAAAAAAACATAA---GTATG--GACACTGT   6147
+                         .|.||..|||            |||.||   |.|||  |.|.|||
+7550665-75609   3925 TTAAGAGTGTCAGG------------ACACAACTGGGATGCAGTCCCTG-   3961
+
+c99352746-993   6148 TCTG------TGC-TGAGTTCACAAAATGGAG-----GCTGCATGGTTAT   6185
+                      |||      ||| ||.|||||       |.|     ||||.|  ||.|
+7550665-75609   3962 -CTGCAAGTTTGCTTGGGTTCA-------GTGTCAGTGCTGAA--GTGA-   4000
+
+c99352746-993   6186 GGC--TGAAGAAACATGACCTTTCCTTAGGTGACCTATGCAGCTCCTTTA   6233
+                      ||  ||||||.|                |||.|   .|||||      |
+7550665-75609   4001 -GCAATGAAGACA----------------GTGCC---AGCAGC------A   4024
+
+c99352746-993   6234 CCGATTTCCTCTTCCAACATGGTCTCTCTTC---------------CTGA   6268
+                     |.|.|         ||.||.||.||||||.|               ||||
+7550665-75609   4025 CTGCT---------CACCAAGGGCTCTCTCCTTATGCTGGATGGCTCTGA   4065
+
+c99352746-993   6269 GC---------------ATGGAATCAATGAAACTG---ACTAGGTGAA--   6298
+                     ||               ||  |||| .|.|.||||   .||..|||||
+7550665-75609   4066 GCACACATCCCCCACAGAT--AATC-CTCACACTGCATCCTCTGTGAACC   4112
+
+c99352746-993   6299 AGAAAATGAAAGAAACATAGCAGGAGCCATCCACCATCAACAA----TGT   6344
+                     |.|.|.|| .|||.||  ||.||             |||.|||    |||
+7550665-75609   4113 ACAGACTG-TAGATAC--AGAAG-------------TCAGCAAAAGGTGT   4146
+
+c99352746-993   6345 CTGCCTTA-TTACCTTTGGCCATGCTTAAATGTGACTGATT----ATGGA   6389
+                          |.| ||.|||.|..|| ||||..||       ||||    |.||.
+7550665-75609   4147 -----TGATTTTCCTCTCACC-TGCTGCAA-------GATTCGACAGGGT   4183
+
+c99352746-993   6390 TT-ACTAATTATTTTATCTTCAATATTT-----ATTTTACCTAATCTTAT   6433
+                     || |.||             |||| |||     ||||.||..|.|||.|.
+7550665-75609   4184 TTCAGTA-------------CAAT-TTTCCAGGATTTAACAAATTCTAAC   4219
+
+c99352746-993   6434 TATGTATTAATATAAATATTACTATATTAATTAAGGA-TGA---ATAACT   6479
+                     .|||..|.|..|.||||||               |.| |||   |.|.||
+7550665-75609   4220 AATGGCTAAGAAGAAATAT---------------GCAGTGAGCCAAATCT   4254
+
+c99352746-993   6480 AGGACATTTCCATACCATCGTTTTCATATGAACTTTACCCATAAAATGTT   6529
+                     ..|         ||.||          |||  ||.|         ||.||
+7550665-75609   4255 GTG---------TAGCA----------ATG--CTGT---------ATTTT   4274
+
+c99352746-993   6530 ATGCACCAATCATTTTTCTTGGTCTTGTGAAA-----TAGATAGCATAGG   6574
+                     ||   ||||.||.|          ||||.|||     ||..|||..||||
+7550665-75609   4275 AT---CCAAGCAGT----------TTGTTAAACTACCTAAGTAGTTTAGG   4311
+
+c99352746-993   6575 T-GATTAAAAATAAAATTTGTCTTTAAAGAATCACTTTAGCCAATGGATT   6623
+                     | |.||||           ..||||.|||.|.|.||.||        .||
+7550665-75609   4312 TAGTTTAA-----------CCCTTTTAAGCACCTCTGTA--------CTT   4342
+
+c99352746-993   6624 CGACCTGTC-------------CACTTACCAAGTACT----AATTTAGAC   6656
+                     |.|||||||             ||..||..|||| ||    ||.|.||..
+7550665-75609   4343 CTACCTGTCTTTGTACTGGCTGCAGCTATGAAGT-CTGTCCAAATCAGGT   4391
+
+c99352746-993   6657 TG----------TGAAAAGAAAATAATAAAATAAACTGTCCAATTTGAGT   6696
+                     ||          |||.||||||.|                |.|||||||
+7550665-75609   4392 TGGTATGTGTGATGAGAAGAAAGT----------------CTATTTGAG-   4424
+
+c99352746-993   6697 TTTAGCTCT-ATTTCCTTT-ACTC---AGAAAAAAATTAATATCAAAACG   6741
+                        |.|||| ||||..||| ||||   |||||.|..|..||.||||
+7550665-75609   4425 ---ATCTCTGATTTGTTTTAACTCCAAAGAAATATGTGTATTTCAA----   4467
+
+c99352746-993   6742 ACTGCCTTATTTC-----TCACCC---CTCCTCCTTCCACCATAACAGT-   6782
+                             |||||     |..|||   ||.||..|||  .|.||  |||
+7550665-75609   4468 --------ATTTCAGTGATAGCCCTGGCTGCTTTTTC--TCTTA--AGTT   4505
+
+c99352746-993   6783 --------AAAAATAGATAATTCACAAATTACCAGCTAAAAACACTTGAA   6824
+                             ||||.|.|||||.||||
+7550665-75609   4506 TTGGTTCAAAAACTTGATAAATCAC-------------------------   4530
+
+c99352746-993   6825 AGTCAATTCTTATCCTAAAAGAAAGTGTCTAACT----TGTTGTGGAAGG   6870
+                       ||.|||.|    ||||       || |||.||    |||..|...|||
+7550665-75609   4531 --TCTATTGT----CTAA-------TG-CTAGCTGCCGTGTGTTTCCAGG   4566
+
+c99352746-993   6871 TA----GAAATTTTCAG-ACGAATTTCTGTA---------ATTC----TT   6902
+                     ||    ||||    ||| |.|    ||||.|         |.||    ||
+7550665-75609   4567 TAAGCTGAAA----CAGCAGG----TCTGAACACGCACACAGTCACGTTT   4608
+
+c99352746-993   6903 CTTTGTCCTATTTTTGTTAGTTTTCCTC----------AAAAAAGA-ACT   6941
+                     ||.||    ||.||..|||.|||.||.|          |||||||| ||.
+7550665-75609   4609 CTCTG----ATGTTGCTTAATTTACCACTCTGATTTGTAAAAAAGACACG   4654
+
+c99352746-993   6942 AAGATCTTTTTGAAAACATTCATTTTATAATTAAGATAAACCTAGTCTCT   6991
+                     .|.|.||.|||.|..|.|.|.|||     |.||||
+7550665-75609   4655 CAAAGCTGTTTTACCAGAATGATT-----ACTAAG---------------   4684
+
+c99352746-993   6992 TTGAAAAGCCAAGACCTATGTTAAAAATCTCATTTTTGTTGTAAATCAAA   7041
+                                   ||||..|.|||||          |||.||||| |||
+7550665-75609   4685 --------------CCTACATCAAAAA----------GTTCTAAAT-AAA   4709
+
+c99352746-993   7042 TTCT---------------TACAAAATACCAGATCTTCCCAACATCTACT   7076
+                     .|.|               |.|   ||||   ||.||      ||.|.||
+7550665-75609   4710 GTGTGTGTGTGTATGTGTGTGC---ATAC---ATTTT------ATGTTCT   4747
+
+c99352746-993   7077 AGGACTAAAATAGGCTACTTTCAACTAAAATTTATATGTATACTTACAGC   7126
+                              .||||..|.||||.|||    ||           |||..|.
+7550665-75609   4748 ---------GTAGGTCATTTTCCACT----TT-----------TTAGTGG   4773
+
+c99352746-993   7127 AAAAATATTTAGTTAAGATTTAATTAGACAAGGATTACAT-AAATTATAT   7175
+                     |||     |.|   |||||||..||.|||...||..|||| ||||..||.
+7550665-75609   4774 AAA-----TCA---AAGATTTTCTTTGACTTTGAAAACATCAAATACTAG   4815
+
+c99352746-993   7176 C-----TGCAAA---GCCTCCAGGATAAATTAG---TGCACTGCGTAAAA   7214
+                     |     |.||||   ||| .||..|.||||| |   ||.|.||.|   ||
+7550665-75609   4816 CCACATTTCAAAACTGCC-ACATCACAAATT-GATCTGTATTGGG---AA   4860
+
+c99352746-993   7215 TTTTATTAACACAGTTGATGGAATTTTTTTAATCCATCTTG--TTTCCCA   7262
+                     ||.|       ||||..|.|||   ||.|||        ||  |||.|||
+7550665-75609   4861 TTAT-------CAGTCTAGGGA---TTGTTA--------TGGATTTACCA   4892
+
+c99352746-993   7263 CACTTGTATT-TTCTCTTTAGGATTCTTCAGGCACTTATAAACCCAAAC-   7310
+                     .|||| |||| ||.|     |||                |||  ||.||
+7550665-75609   4893 TACTT-TATTGTTGT-----GGA----------------AAA--CATACA   4918
+
+c99352746-993   7311 ----TAAAAAACAATGCCTTGGC----AGGCAATGACAAATGACATAGTT   7352
+                         |||||||        |.||    |||  |||          |||.|
+7550665-75609   4919 GCAGTAAAAAA--------TTGCACCGAGG--ATG----------TAGCT   4948
+
+c99352746-993   7353 GTGACTAGACCCTATTTCTTAGAAACTTTTCAGACACATAATTCT----A   7398
+                     |   |||          |||.|..|||       |||||..|.||    |
+7550665-75609   4949 G---CTA----------CTTTGCTACT-------CACATTGTGCTAGGGA   4978
+
+c99352746-993   7399 ATCTATACATG--------TGAGCGT-TAAGTTTTTGCTCTATTAATTCC   7439
+                     || ||.|.|||        ||.|.|| |.|||..|| ||||
+7550665-75609   4979 AT-TACAGATGTCTTACCTTGTGTGTATCAGTGCTT-CTCT---------   5017
+
+c99352746-993   7440 TGCATAGAAATTTAAGAAGAATTTGTTTTATTCCTCTGCAGGTGATAAAG   7489
+                                    |||.||  |.|||||    .||||
+7550665-75609   5018 ---------------GAAAAA--TATTTTA----CCTGC-----------   5035
+
+c99352746-993   7490 TCATCCCGCTCTTTACTCCT------CAGTGTGGAAAATGCAGAATTTGT   7533
+                               ||||||.|||      ||||      |||  ||.| .||.
+7550665-75609   5036 ----------CTTTACGCCTAAGCAACAGT------AAT--AGGA-CTGC   5066
+
+c99352746-993   7534 AAAAACCCAGAAAGCAACTAC-----TGCTTGAAAAATGAGTAAGTTTCT   7578
+                     |||.|   ||||||..|| ||     .|||.|.|||.| |.||| ||||.
+7550665-75609   5067 AAATA---AGAAAGAGAC-ACATGAGGGCTGGGAAACT-AATAA-TTTCC   5110
+
+c99352746-993   7579 GATGCTTTCTTTGCACAGACTTTG-AGTTTGCACATTAGTTATGGTCCTG   7627
+                     .||.||||||    |||     || |||||.||           |.||||
+7550665-75609   5111 CATTCTTTCT----ACA-----TGCAGTTTACA-----------GCCCTG   5140
+
+c99352746-993   7628 TCTCATGCCTTTGTGTGTCTTTGTATTGCACTGCCCAGTCTAGGCAATCC   7677
+                     |              |.||||.|.||..||  |||            |||
+7550665-75609   5141 T--------------TATCTTAGCATGTCA--GCC------------TCC   5162
+
+c99352746-993   7678 TCGGGGGACCCTGCAGGATGGCACCAGGAGG--TTCACCTGCAGCGGGAA   7725
+                     |      ..|||...|||||.||       |  ||.||||
+7550665-75609   5163 T------GTCCTAATGGATGTCA-------GTTTTTACCT----------   5189
+
+c99352746-993   7726 GCCCATCCACCACTTCGTCGGCGTCAGCACCTTCTCCCAGTACACAG---   7772
+                      |||.|.|..|||     |.|||| ||||..||.|...||||.| ||
+7550665-75609   5190 -CCCTTTCCTCAC-----CTGCGT-AGCATTTTTTTTAAGTAGA-AGATG   5231
+
+c99352746-993   7773 --------TGGTGGATGAGAA-----TGCAGTGGCCAAAATTGATGCAGC   7809
+                             ||.||.|||||.|     || ||||||         .|||||
+7550665-75609   5232 CAAAAAAATGCTGAATGAGTAGTTGGTG-AGTGGC---------AGCAGC   5271
+
+c99352746-993   7810 CTCGCCCCTGGAGAAAGTCTGCCTCATTGGCTGTGGATTT----TC----   7851
+                               .||.||                   |||||    ||
+7550665-75609   5272 ----------TAGCAA-------------------GATTTAATATCAGAG   5292
+
+c99352746-993   7852 ----GACTGGTTATGGGTCTGCAGTCAAAGTTGCCAAGGTA-GAAATGAC   7896
+                         ||||             ||||     ||       || |||| |||
+7550665-75609   5293 CTAAGACT-------------CAGT-----TT-------TATGAAA-GAC   5316
+
+c99352746-993   7897 A--ATGGA----------TGATAAAACCGGTTACACGCAGACTGTCAGGA   7934
+                     |  |.|||          |||||             |||| .|||
+7550665-75609   5317 ACCAGGGATATTGCATGTTGATA-------------GCAG-TTGT-----   5347
+
+c99352746-993   7935 ACCAAAAGGGAAGCAA-----TTTCTTGCAAGAATCAGAAATTATTTT--   7977
+                       ||.|||.|.|..||     ||..||||    |||||  .||||.||
+7550665-75609   5348 --CATAAGTGCATTAATGATGTTGTTTGC----ATCAG--TTTATCTTCC   5389
+
+c99352746-993   7978 -----------TGTAGATTTGAAGTGTCGATTAAGAGTAGAAAAATGACC   8016
+                                .|.|||  |||||               ||||.|.|..|
+7550665-75609   5390 AACAGCACGAGGGCAGA--TGAAG---------------GAAATAAGTTC   5422
+
+c99352746-993   8017 CAGAAAGAACTGAGAGCAC-AGGCTAGAAATTTCACCAATTTAT---TGC   8062
+                          ||.|||    |||| |  ||||    |.|||  ||||.|   ||
+7550665-75609   5423 -----AGCACT----GCACTA--CTAG----TGCAC--ATTTTTCTATG-   5454
+
+c99352746-993   8063 AGATAAAA---ACTTGTTAAGAAAATGTAAAGATGTCATTTT-----CAA   8104
+                      |||||||   .||||||    ..||||          ||||     ||
+7550665-75609   5455 -GATAAAATATGCTTGTT----TTATGT----------TTTTACCTGCA-   5488
+
+c99352746-993   8105 TAATTTTTCTT-CTGAA-----TTTG-CTGTTTATGGGATCATGAAATTT   8147
+                           |.||| |||.|     |||| ||.|||     .||.|    |||
+7550665-75609   5489 ------TGCTTCCTGCATGCCTTTTGTCTTTTT-----TTCTT----TTT   5523
+
+c99352746-993   8148 T-----AGATCTGTGAACTAATTCA-TGTTGTAATTCAATCA-ACA----   8186
+                     |     |...||||.|      ||| ||||.|..|||.|..| |||
+7550665-75609   5524 TTTAACACCCCTGTCA------TCACTGTTTTCTTTCTAGGAGACAAGGT   5567
+
+c99352746-993   8187 -ATTAGAGAGCACCTATACATACCTCAG----------GCACCATAGGTT   8225
+                      |||      |.|||.|.|.|.||.|||          |||.||
+7550665-75609   5568 CATT------CCCCTCTTCGTTCCACAGTGTGGGGAATGCAGCA------   5605
+
+c99352746-993   8226 C-TGC-TAGGCTCTGACAGCAAAAGTAA-ATG--------AAATGA-AGC   8263
+                     | ||| ||..|||      |||..|||| |||        |||||| .|.
+7550665-75609   5606 CTTGCTTAAACTC------CAAGGGTAATATGTGCATTAAAAATGAGTGA   5649
+
+c99352746-993   8264 GTTTGCCCTTGAGGACCATCTAGTCTGTGGATCCTCTCCTCCCAGA----   8309
+                     ||||  |||.|...||        ||||||          |||..|
+7550665-75609   5650 GTTT--CCTGGGTTAC--------CTGTGG----------CCCTTATTTG   5679
+
+c99352746-993   8310 ATTAGGATCAACAGTAGAGTCCAAAACCTTACCTGA-TGCACCTCGAAAC   8358
+                     |||...||..|||        ||.||||      || ||||  ||.||
+7550665-75609   5680 ATTTTAATTTACA--------CAGAACC------GACTGCA--TCCAA--   5711
+
+c99352746-993   8359 CAAGGCTCA---CCCA--CTCTGTGGAT-TCTTAGACGGAAAGTAATAAA   8402
+                     ||...||||   .|||  .|.|.|||.| ||||             |..|
+7550665-75609   5712 CAGATCTCATTTGCCATTATTTCTGGTTATCTT-------------TTGA   5748
+
+c99352746-993   8403 GACTCAGTGATGCA----------TAAT--------TCACTCATTATGAC   8434
+                     |...||.||.||||          ||||        .||| ||.||.|
+7550665-75609   5749 GCAGCATTGGTGCAGCTGCTGGATTAATGGCTGATGGCAC-CACTAGG--   5795
+
+c99352746-993   8435 ATTTCACTGC----TAAAACTAACTCCCCTGGCATGAACACACATATGTA   8480
+                      |||..||||    .|||||.||.||.||        ||       |.||
+7550665-75609   5796 -TTTACCTGCAAGGGAAAACCAATTCACC--------AC-------TTTA   5829
+
+c99352746-993   8481 TTCAGAAGTGGTAAATTTCAAGCAGAAATTCTTTAAAGGCTCC-TCATCT   8529
+                     |       |||||     |.||||                 || ||| ||
+7550665-75609   5830 T-------TGGTA-----CCAGCA-----------------CCTTCA-CT   5849
+
+c99352746-993   8530 GAGTAGACTGAAAATCTAGTAGTATGTTTTATTTTATGAAACCTAGATCG   8579
+                     ||.||.||         |||||          |..|||||||
+7550665-75609   5850 GAATACAC---------AGTAG----------TGCATGAAAC--------   5872
+
+c99352746-993   8580 AGAGATATAAAGATATTTGC-----CCAAAATCTGACTTCTGCTTAATAT   8624
+                                      |||     .||||||| ||||||||||
+7550665-75609   5873 -----------------TGCTGCGGTCAAAATC-GACTTCTGCT------   5898
+
+c99352746-993   8625 GAGCACTAAGACT----AAAATATCTTTTACAAATCTCCTGCTGAATGTC   8670
+                       ||.|     ||    ||||.||||.|  |..|||..|||..||.|.||
+7550665-75609   5899 --GCTC-----CTCCAGAAAAAATCTGT--CTGATCGGCTGTGGATTCTC   5939
+
+c99352746-993   8671 AAATCACAATCCATAATTAT-----TAGCACTTTTAAACCACAGTCACAA   8715
+                     ||          .|..||||     | ||.||        .|||.|
+7550665-75609   5940 AA----------CTGGTTATGGGGCT-GCTCT--------GCAGAC----   5966
+
+c99352746-993   8716 ACAAGCCTTGTATTTTTCTAAGTAAGGTAGAAAGT------GGTGTTGTC   8759
+                             ||.|           |||||   ||||      ||.|||
+7550665-75609   5967 --------TGCA-----------AAGGT---AAGTACCACGGGCGTT---   5991
+
+c99352746-993   8760 CC----CCAT--AGTATTGAATAACACTTGGTGAATGAATGAGTGAAATA   8803
+                     ||    ||||  ||.|||         |||| ||
+7550665-75609   5992 CCTGGGCCATTCAGGATT---------TTGG-GA----------------   6015
+
+c99352746-993   8804 GACACCCTTAAGGGAATATAAGAATGAGATTATTTGGAACAGG--AACAG   8851
+                          |||.||                          ||||||  ..|||
+7550665-75609   6016 -----CCTGAA--------------------------AACAGGTCTTCAG   6034
+
+c99352746-993   8852 CATGTTACCCA--AAACGAAGGCTGACTATGGGAGACTAGGTTTAGTAAA   8899
+                     ||||..|.|||  ||....||||| .||.|.|.|||    |||.||
+7550665-75609   6035 CATGGCAGCCAGGAAGTATAGGCT-CCTCTCGCAGA----GTTCAG----   6075
+
+c99352746-993   8900 TAACCGCTAGCCAATTTACACAATTTAGAGGACA-----TCTTTTCC---   8941
+                          |||.|  ||            |||.||||     |||||.||
+7550665-75609   6076 -----GCTGG--AA------------AGAAGACACTAGTTCTTTGCCTGC   6106
+
+c99352746-993   8942 --AAATTTC-----GGTGACTTTAGCACTTACTCCCTTGTTCAATTG---   8981
+                       |..||||     ||| ||||..|.|          |.||||||||
+7550665-75609   6107 CTACGTTTCTCTAAGGT-ACTTAGGAA----------TCTTCAATTGAAA   6145
+
+c99352746-993   8982 --CCTCATCTATTTTAATGGGTAGTCTAAGTGAGCCTACCCAAGAACAGA   9029
+                       |     |.|||||||                        ||.|||
+7550665-75609   6146 ATC-----CAATTTTAA------------------------AAAAAC---   6163
+
+c99352746-993   9030 AGCTGAGGATACTCATAACAACAGATTTTATTTATTATTAAAAT---ATA   9076
+                                                       ||||||..||   |||
+7550665-75609   6164 ----------------------------------TTATTACCATTTGATA   6179
+
+c99352746-993   9077 GACTAATGTTTCATTGCTGTGTTGT-TCACAAGTGTATTTTTTAAAGGAG   9125
+                     |                 ||.||.| |||.||.|.||
+7550665-75609   6180 G-----------------GTCTTCTCTCAGAACTCTA-------------   6199
+
+c99352746-993   9126 GGATATACTGGTCACGACTACTGAACAAAAATG--AAGAAAGGAGTTA-A   9172
+                      |.|.||    |.||..||     |.||||.||  |.||.|..|.||| .
+7550665-75609   6200 -GCTGTA----TTACCCCT-----AGAAAAGTGTTATGAGATTATTTATT   6239
+
+c99352746-993   9173 TTATTGAGAGTTAAAGT---GGAATATTTTTCAGTCTCCTGGAGTAGCCT   9219
+                     ||||||..|.|| ||||   ||||||     ||        ||| |||||
+7550665-75609   6240 TTATTGTAACTT-AAGTCTAGGAATA-----CA--------GAG-AGCCT   6274
+
+c99352746-993   9220 TTTCCACTTATTTTATTTTCCGAATATTGCCTTGGTGTATGTATGAGATA   9269
+                     .|   ||.|           .|||.|||  |.||  .|.||||..|| ||
+7550665-75609   6275 AT---ACAT-----------GGAAAATT--CATG--ATTTGTAGCAG-TA   6305
+
+c99352746-993   9270 C-TGAAGCTGGCT------ATCAAGGGATT-TCAGCAATTGAGAGTCCCT   9311
+                     | ||||..||.||      ||| .||.||| ||..||||.|||.|.|.||
+7550665-75609   6306 CTTGAATGTGACTTTTTACATC-TGGAATTATCTCCAATGGAGGGACACT   6354
+
+c99352746-993   9312 ACAAGATTGTA--ATCACTGTCATCT---GGATCTCAAAGATCATCCAGT   9356
+                     || .||.|.||  |.|||||..||.|   |.|||..|||.|..||
+7550665-75609   6355 AC-GGACTTTAACACCACTGGAATATAGAGCATCATAAAAAAAAT-----   6398
+
+c99352746-993   9357 CCCCTGGTTCCCAGCCTGACCCATTGGAGTCCCT----TGAGGACTTAGT   9402
+                        ||||||...|.|||||   |...|||| .||    |||.|||.||||
+7550665-75609   6399 ---CTGGTTATAAACCTGA---AGCTGAGT-GCTGTAATGAAGACCTAGT   6441
+
+c99352746-993   9403 TCCACCTGCAGAGATTCTCATTT--------AATTGGCATGGGCTATGAC   9444
+                          || ||||.||  .|||||        ||||             ||
+7550665-75609   6442 -----CT-CAGACAT--GCATTTTAGCAACAAATT-------------AC   6470
+
+c99352746-993   9445 CTGGACTGTGGGATGTTTTTAAAGCTCCCCAG-ATGAATCTAATATGCAG   9493
+                     |                 |||   .||.|.|| |.||.|.||||| ||||
+7550665-75609   6471 C-----------------TTA---GTCGCAAGTAGGATTATAATA-GCAG   6499
+
+c99352746-993   9494 CAGTTTCAGAACTACTCAACTAATTCAACCCCTTGAA---TTTAAACATG   9540
+                      ||||    ..|||||            ||.||||.|   |.|.||.|||
+7550665-75609   6500 -AGTT----GGCTACT------------CCACTTGTAGGGTATGAATATG   6532
+
+c99352746-993   9541 AAGCATTTC----AAGCCAAAACAGGTTTCGATAACAGATTGGAC-AGAA   9585
+                     .|.| ||||    |   |||      ||..||||.|..||| .|| ||||
+7550665-75609   6533 CAAC-TTTCTTTTA---CAA------TTGTGATATCTAATT-TACAAGAA   6571
+
+c99352746-993   9586 GAGTCTGAGTAGT-----TCTTGATA--ACACACAAGACATGGCACTTTA   9628
+                     ..|.||.||  ||     |.||||||  | |.|.||..|||.||||||||
+7550665-75609   6572 TTGGCTTAG--GTGAGAATGTTGATAGTA-AGAAAATGCATTGCACTTTA   6618
+
+c99352746-993   9629 TAAAGCTTAAGCAATTTCTAACA----AACATTAT------TTAATTCAT   9668
+                          |.|..||   ||.|||||    ||||..||      |||||  ||
+7550665-75609   6619 -----CCTGGGC---TTGTAACAGGATAACAGGATGCTGTGTTAAT--AT   6658
+
+c99352746-993   9669 TTTTGCATTTTCTGAAAACATAGGTCACCCCAGGGTCTACCTGTGCTGTG   9718
+                     ..||            |.|||||||.....||||.||||||||||||||.
+7550665-75609   6659 GGTT------------ACCATAGGTGGAAGCAGGCTCTACCTGTGCTGTC   6696
+
+c99352746-993   9719 TTTGGCCTGGGAGGGGTCGGCCTATCTGTTGTTATGGGCTGTAAAGCAGC   9768
+                     ||.|||||.|||||.||.|||||.||||||.|.||||||||.||.||.||
+7550665-75609   6697 TTCGGCCTCGGAGGAGTTGGCCTCTCTGTTATCATGGGCTGCAAGGCGGC   6746
+
+c99352746-993   9769 TGGAGCAGCCAGAATCATTGCTGTGGACATCAACAAGGACAAATTTGCAA   9818
+                     ||||||..|..|.|||||.||.||.||.|||||.|..|||||.|||||.|
+7550665-75609   6747 TGGAGCTTCTCGCATCATCGCCGTCGATATCAATAGTGACAAGTTTGCCA   6796
+
+c99352746-993   9819 AGGCTAAAGAGTTGGGTGCCACTGAATGCATCAACCCTCAAGACTACAAG   9868
+                     ||||.||.|||.||||.||||||||.||||||||||||.||||..|||||
+7550665-75609   6797 AGGCCAAGGAGCTGGGAGCCACTGACTGCATCAACCCTAAAGATCACAAG   6846
+
+c99352746-993   9869 AAACCCATTCAGGAAGTGCTAAAGGAAATGACTGATGGAGGTGTGGATTT   9918
+                     .|.||||||||..|||||||.|..|.||||||||.....||.|||||.|.
+7550665-75609   6847 GAGCCCATTCACAAAGTGCTGATTGGAATGACTGGCTACGGCGTGGACTA   6896
+
+c99352746-993   9919 TTCGTTTGAAGTCATCGGTCGGCTTGACACCATGGTATGATCCGTGACAT   9968
+                     .||.||.||.||||||||.||..|.||.|||||||||
+7550665-75609   6897 CTCCTTCGAGGTCATCGGCCGTATCGAAACCATGGTA-------------   6933
+
+c99352746-993   9969 GCCCTGAAATTTCTGCCTCTGCAACCTGGAGGATGCATTTAGGCAGTAGA  10018
+                                        |||||.|                     |.|
+7550665-75609   6934 -------------------TGCAAAC---------------------AAA   6943
+
+c99352746-993  10019 ATATACGTATTATGTATAAAGGATATTTTTAATGATGAATGGAAATTTCC  10068
+                     |          ||||..|||             ||.|.||
+7550665-75609   6944 A----------ATGTCAAAA-------------GAGGCAT----------   6960
+
+c99352746-993  10069 CGTCATCTTTTTGTTACCTGGCTTGTTTAATTTATTGTTATGAGAAGTCT  10118
+                                       |.|||||||             .|||...|||
+7550665-75609   6961 ------------------TAGCTTGTT-------------AGAGCTCTCT   6979
+
+c99352746-993  10119 TCCATTC-AATCAGCTAAGCAAACCTGTCTCAAGTCATATTTCCTCGAGA  10167
+                     ||   || ||.||.|||||||                       .||||
+7550665-75609   6980 TC---TCTAACCAACTAAGCA-----------------------CCGAG-   7002
+
+c99352746-993  10168 AAAGAAAAAGGGCTTGTTTTTTTTAACACAGCCACT-ACAAATATGCTTT  10216
+                        |...|.|||||            .|.||||||| .|||
+7550665-75609   7003 ---GGTGAGGGGCT------------GAGAGCCACTGGCAA---------   7028
+
+c99352746-993  10217 ATTAATTTTTAGT-TTAAAATGCAAACTTAAATATATATAAATAATACAA  10265
+                               ||| |.||.||   |||||
+7550665-75609   7029 ----------AGTGTGAAGAT---AACTT---------------------   7044
+
+c99352746-993  10266 ATCATTTTCTCAAATTAAAAAGTTTTATTTTTCTTTTACATTCT---TAA  10312
+                              ||||..|.|||                     |||   ||
+7550665-75609   7045 ---------TCAACCTGAAA---------------------TCTGGCTA-   7063
+
+c99352746-993  10313 CAAAAATATTTTAACAATTTTATGTATGCTCTTAACGA-ATTC-CAAACT  10360
+                              |.|..||.|...|||||.|..|..||.|| |.|| ||||||
+7550665-75609   7064 ---------TCTGCCACTGAGATGTAAGGACAGAAGGACACTCACAAACT   7104
+
+c99352746-993  10361 TTTTGACATAGTATTCTTCGGTCAAAAGAAA-TGAGC--AATTTTAGACC  10407
+                     |                        .||||| .||||  ||.|.|||.||
+7550665-75609   7105 T------------------------CAGAAAGGGAGCTTAAATGTAGTCC   7130
+
+c99352746-993  10408 AACTATTATTTTATTAACAGAAAATATGCCCTAAGGAAAGTGACTGCTTT  10457
+                     ..|||||.|..||..||..||       .||||||||..|||.|
+7550665-75609   7131 CTCTATTCTGATAGAAAGGGA-------GCCTAAGGAGGGTGGC------   7167
+
+c99352746-993  10458 AATACATTGC-----------TATATTTTATCACAGCAACTGGACAGTGC  10496
+                       ||.|||.|           |||.||.|.|| |||        |||||.
+7550665-75609   7168 --TAAATTTCACGTAACTCTGTATCTTCTTTC-CAG--------CAGTGT   7206
+
+c99352746-993  10497 CTGACACAAAACTAGTACCCAGTATTACTTGGACTGAATGCTTTAAATAA  10546
+                     ||                    |||.|.|   |.|||||.....|||..|
+7550665-75609   7207 CT--------------------TATCATT---AATGAATAAGACAAAATA   7233
+
+c99352746-993  10547 AGTCAACAGATTTTACCACCCGCAAAAGTTAAGAGCTACATATCTCATGG  10596
+                     ||.|||||||             |.|||.|||.|           ||||.
+7550665-75609   7234 AGGCAACAGA-------------ACAAGCTAAAA-----------CATGA   7259
+
+c99352746-993  10597 CATTGTTTATGAAACGCATGAGACAATGCATGTAA----AATACTTTGTG  10642
+                     ||             ||   ||||||.|.|.||.|    .|.|.|||||.
+7550665-75609   7260 CA-------------GC---AGACAAAGGACGTGAGCTTGAGAATTTGTT   7293
+
+c99352746-993  10643 CAAC------------ACAACTCATCATGTGGTTAGCT---TCC------  10671
+                     .|||            ||||..||..|.|| |..||||   |||
+7550665-75609   7294 TAACGTGACTGCAATAACAAAACACGAAGT-GCAAGCTGAGTCCTGAGAG   7342
+
+c99352746-993  10672 -------AATAAA-----TGT----CA----GCAGCCCCCTTTTTTATTT  10701
+                            |||.||     |||    ||    ||||..|
+7550665-75609   7343 GAGAAGGAATCAAGCGTTTGTGCTCCAAGTGGCAGGGC------------   7380
+
+c99352746-993  10702 TATTTTATTTATTTATTTATTTTTTTTTTTTTTTTGAGACAGG---GTCT  10748
+                                                  ||.|.|||..|.||   |||.
+7550665-75609   7381 -----------------------------TTGTGTGACCCTGGCACGTCC   7401
+
+c99352746-993  10749 CACTCTGTCACCAGGCTGGAGTGCA-GTGATATGATTATGGCTCACTGCA  10797
+                     |.||||||       .|..|.|||| ||                  ||||
+7550665-75609   7402 CTCTCTGT-------TTTAAATGCAGGT------------------TGCA   7426
+
+c99352746-993  10798 GCCTTAACCTCCTG-GGCT-----TAAGTGAGTTTCCTACCTCAGCCTCC  10841
+                     |||.|..||||.|| ..||     ||.| |||         |||||.|
+7550665-75609   7427 GCCCTGGCCTCGTGCCACTACAACTACG-GAG---------TCAGCGT--   7464
+
+c99352746-993  10842 GAAAGTG----------CTG-AGTACAGA----CA----TGAGCAACCAT  10872
+                     ||..|||          ||| ||.|||||    ||    |||.|  ||||
+7550665-75609   7465 GATCGTGGGAGTGCCCCCTGCAGCACAGAATATCACTTTTGACC--CCAT   7512
+
+c99352746-993  10873 GCTGAGCCTCAGT--TGGCATTATTGATATGAAATACTATTTCCAATCTT  10920
+                     |||...|.|||||  |.|||  ..||    ||||...|.|.||    .||
+7550665-75609   7513 GCTCCTCTTCAGTGGTCGCA--CCTG----GAAAGGGTCTGTC----TTT   7552
+
+c99352746-993  10921 GCAGTGCTTATGTCATCTTTGAATTATTACATGATATTA-----CTTTCA  10965
+                     |.||     .||..|.|||.|||..||..|||    |||     |||...
+7550665-75609   7553 GGAG-----GTGAGAACTTGGAAAGATGCCAT----TTAACTGGCTTGGG   7593
+
+c99352746-993  10966 AACAGTTACAAAT--------ATCAAAGGCAACGGAAACATATCTCTAGC  11007
+                     |||  ||..||||        |||||||    |.||        |.||.|
+7550665-75609   7594 AAC--TTGTAAATCATCTTCAATCAAAG----CAGA--------TGTATC   7629
+
+c99352746-993  11008 TATATT------TTA-CCTATCCAGAATTAT-CTA----------GAC-T  11038
+                     ||.|||      ||| |.|.|||.|  |||| |||          ||| |
+7550665-75609   7630 TAAATTTGCTGCTTAGCTTGTCCTG--TTATACTACTGATAGCGGGACAT   7677
+
+c99352746-993  11039 CCTACTGAAAAAGTCT-----------CCAGAAACAAAAA---AGTTTCC  11074
+                     .|||||||.||   ||           |.||.|.||.|||   |.||  |
+7550665-75609   7678 ACTACTGATAA---CTATTTTGCTGACCAAGTAGCACAAAGGGAATT--C   7722
+
+c99352746-993  11075 ATTGCTGAGGTTTTCTAGAAGG----TC------CAGCAGTGTGGGTAAC  11114
+                     |||               ||||    ||      |||.|||   |||.||
+7550665-75609   7723 ATT---------------AAGGAGACTCACTTATCAGAAGT---GGTTAC   7754
+
+c99352746-993  11115 ---AGGGAGCAGCACCCTGAGATCAAAGTTCCCAGCAGCCTTGACCTGGG  11161
+                        ||.|||.|  |..|.||||..||.|      |.|         .|||
+7550665-75609   7755 TGGAGAGAGAA--AAACAGAGAGGAAGG------GGA---------AGGG   7787
+
+c99352746-993  11162 ACAAATGCCACAGAG-----------GAATAAAGTATCAAGAGAATC---  11197
+                     |..|| |..|.||||           ||.|||| .|..||.|.||||
+7550665-75609   7788 AGGAA-GAGAGAGAGAGAAGGGAAGAGATTAAA-AAAAAAAATAATCTGA   7835
+
+c99352746-993  11198 CAATTTTTTCCAGGGCTATAGCTTTTCTCCTTATGCTCTTTTTCTATATC  11247
+                     .|||||    .||              |||     ||.|||||
+7550665-75609   7836 GAATTT----AAG--------------TCC-----CTGTTTTT-------   7855
+
+c99352746-993  11248 TTCCTCCATTTTCTCATG--TGGAACTGGAGTGTACATTATCTCAAGACA  11295
+                         .||||||||.||.|  |..|| ||    ||.||||||
+7550665-75609   7856 ----GCCATTTTCACAAGCATTTAA-TG----GTTCATTAT---------   7887
+
+c99352746-993  11296 CCAAATGTCTGACAGCCACATGTTCTGAGGA----TGTCAGTCT-----C  11336
+                                      ||||...|||.|||    |.||||.||     .
+7550665-75609   7888 -----------------ACATTGCCTGTGGATTTCTTTCAGGCTGGAAGA   7920
+
+c99352746-993  11337 CCAAAGA-TCAGAATCCAAAATCAAAGAACTAATCATTATATACCTAGAG  11385
+                     .|||||| ||||  |||                          ||.||..
+7550665-75609   7921 GCAAAGATTCAG--TCC--------------------------CCAAGCT   7942
+
+c99352746-993  11386 GGATCCTAAACCATTTTCTAACTACA-GAACATGTTCCAAAAGCTGACTG  11434
+                     ||            ||.||.|||||| |||
+7550665-75609   7943 GG------------TTGCTGACTACATGAA--------------------   7960
+
+c99352746-993  11435 GAAAAGATT--TTCTGAACTGTCTTTTGAGGTTCCCA--AATAA------  11474
+                     |||||.|||  |||||.|               ||||  |||||
+7550665-75609   7961 GAAAAAATTTGTTCTGGA---------------CCCATTAATAACCCACA   7995
+
+c99352746-993  11475 ----TCAGTGTAATTTAATGTAAAACCAAT-ATACATTT----------G  11509
+                         ||      .|||.| ||||||.|||| |...||||          |
+7550665-75609   7996 CCCTTC------CTTTCA-GTAAAATCAATGAAGGATTTGATCTGCTAAG   8038
+
+c99352746-993  11510 GGGAGGTAA-----AAACAATGTTTA---AAACATGTCCACTTG-AGAAA  11550
+                     ||.|||.||     |||||.||.|||   |.|.|.||.|   || |.|||
+7550665-75609   8039 GGCAGGGAAGAGGTAAACACTGCTTAATTATAGAAGTTC---TGTATAAA   8085
+
+c99352746-993  11551 TGGACATAGGAATCTGTTAAAAAGGGAGGCTATCAA--GTGGA-CAAGAG  11597
+                     ||   ||...|||...|||.||||          ||  ||||| .||.||
+7550665-75609   8086 TG---ATGTAAATAACTTATAAAG----------AACTGTGGAGTAACAG   8122
+
+c99352746-993  11598 ACTAATTTTGG-TGATATACTCATTTATCTTGTTCATCATCAAAATATCT  11646
+                     |.||    ||| |||                .|||||.|
+7550665-75609   8123 AGTA----TGGCTGA----------------CTTCATGA-----------   8141
+
+c99352746-993  11647 GATTCAAAGTATTGGGTTCAA--AATAC-CTATG-----TAATAAATCAA  11688
+                         ||.||.||  |||..||  |||.| ||.||     ||||
+7550665-75609   8142 ----CAGAGAAT--GGTGAAAGCAATGCACTGTGCCCCTTAAT-------   8178
+
+c99352746-993  11689 TGAAAAAGGAACCAACT----CA-CACATTG-----CCTAAGAATGATGT  11728
+                                    ||    || ||||.||     ||     ||||..|
+7550665-75609   8179 ---------------CTTGCCCAGCACAGTGTGCGTCC-----ATGAGCT   8208
+
+c99352746-993  11729 ACACTTGTA-----CAAGG----AACAGGACTTTATATATGTTTGTAAT-  11768
+                     .||..||||     |||||    |||   ||.|||..|   ||||.|||
+7550665-75609   8209 GCAGCTGTAGTAACCAAGGCAGTAAC---ACCTTAGCT---TTTGAAATG   8252
+
+c99352746-993  11769 -----GATGTTTGCCTCTTT-ATTCCTTTATTAGGAAGAACTAAGGGCAC  11812
+                          |||||||   ||||| .||||       .||.|||||..|||
+7550665-75609   8253 TACGGGATGTTT---TCTTTCCTTCC-------AGAGGAACTTTGGG---   8289
+
+c99352746-993  11813 ACAAATTTATTCGTCCATGCTTTCATTCAAAAACCATTTTCTGGGCATTT  11862
+                             ||||     ||.||.|             |.|||.|   |||
+7550665-75609   8290 --------ATTC-----TGTTTCC-------------TGTCTAG---TTT   8310
+
+c99352746-993  11863 GCTACATCCACAGCATTATCCTATGCAAAGA----AAGGGGGAATGAAGG  11908
+                     |                      .|||||||    .||.||.|  ||.||
+7550665-75609   8311 G----------------------AGCAAAGAGTCTGAGTGGCA--GAGGG   8336
+
+c99352746-993  11909 AGCAAAAGACATGATCTCTTCCCTCTACACA-CTCA-CAATCCAGCTAAG  11956
+                     ||.||||             |||   ||||| ..|| |||.||||   .|
+7550665-75609   8337 AGAAAAA-------------CCC---ACACAGAGCAGCAAACCAG---TG   8367
+
+c99352746-993  11957 CCTATTACATGATATTGTGCATT----ATGAGTATG-AACTATGCCACTC  12001
+                     ||          ||.|||||.||    |.|.|.|.| |||    ||
+7550665-75609   8368 CC----------TACTGTGCTTTGGAAAAGGGCAAGCAAC----CC----   8399
+
+c99352746-993  12002 CACGTTAAGGATACTAAATGTTCACTTTATTCCAGATGGCTTCCCTGTTA  12051
+                           |||||.||||                             ||||.
+7550665-75609   8400 ------AAGGAAACTA-----------------------------TGTTT   8414
+
+c99352746-993  12052 TGTTGTCATGAGGCATGTGGCACAAGTGTCATTGTAGGGGTACCTCCTGA  12101
+                     |       |||
+7550665-75609   8415 T-------TGA---------------------------------------   8418
+
+c99352746-993  12102 TTCCCAGAACCTCTCAATAAACCCTATGCTGCTACTGACTGGACGCACGT  12151
+                                    |||||  ||||||.|  |||||
+7550665-75609   8419 ---------------AATAA--CCTATGTT--TACTG-------------   8436
+
+c99352746-993  12152 GGAAAGGAGCT----ATTTTTGGAGGTATGTAGTTAGGCTTCAGAG--CC  12195
+                     |.||||.|.||    |||.||   ..|||| .||||||...|||||  ||
+7550665-75609   8437 GAAAAGCAACTTACCATTCTT---CTTATG-GGTTAGGGAACAGAGTCCC   8482
+
+c99352746-993  12196 A----AATTCTCATTAACCTAAGAATTTCTCTCCTTTTATGAGTGACAAG  12241
+                     |    ||||   |.|  |||||                   ||..||..|
+7550665-75609   8483 AGTGCAATT---AGT--CCTAA-------------------AGCCACTGG   8508
+
+c99352746-993  12242 GCAAGTTTTTGAAAAGCAATGAAATTAAAAATAAATTAAAATTT----CT  12287
+                     |.|..||        ||                 ..||||.|||    ||
+7550665-75609   8509 GTAGCTT--------GC-----------------CCTAAACTTTAGAGCT   8533
+
+c99352746-993  12288 TTTCTATAGTCTCCAATAATGCAGAACTTTTCTTT-TTTATTTTTTGGAG  12336
+                     ||||           |.||.|.| |||  |.|||| |.|||       |.
+7550665-75609   8534 TTTC-----------AGAAGGGA-AAC--TGCTTTGTGTAT-------AT   8562
+
+c99352746-993  12337 ATGAAGTC-----TTGCTCTGTCACACAAGGTAGAGTGCAGTGGCGCAAT  12381
+                     |.|.||.|     |||          ||||.|      |||      |||
+7550665-75609   8563 ACGCAGCCAGTATTTG----------CAAGCT------CAG------AAT   8590
+
+c99352746-993  12382 CTTGACTCAC-TGCAACCTCCACCTCACAGGTTCAAGTGATTCTCCTATC  12430
+                      |||.|||.| ||||..||     |||.|..||   ||||.|
+7550665-75609   8591 -TTGGCTCTCATGCATTCT-----TCAAATATT---GTGAGT--------   8623
+
+c99352746-993  12431 TCAACCTCCAGAGTAGCTGGGATTACAGGCATGCACCACTGTGCCCAGCT  12480
+                     |||||  .|||                          ||||||
+7550665-75609   8624 TCAAC--TCAG--------------------------ACTGTG-------   8638
+
+c99352746-993  12481 AATTTTTT---TGGGTAGAGATGAGGGTTCACTATGTTGGCCAAGGTGGT  12527
+                         ||||   ||||                   |||||  |||
+7550665-75609   8639 ----TTTTCACTGGG-------------------TGTTG--CAA------   8657
+
+c99352746-993  12528 CTC-GAACTCCTGACCTCAAATGATCTGCCTGCCTCGGCCTCCCAACGTG  12576
+                      || |||.|.|||           |.||||
+7550665-75609   8658 -TCAGAAATACTG-----------TTTGCC--------------------   8675
+
+c99352746-993  12577 CTCGTGCTGGGATTACAGGCATGAGCCATCATGCCCAGCCCCAAGATAGA  12626
+                                                                |||
+7550665-75609   8676 -------------------------------------------AGA----   8678
+
+c99352746-993  12627 CTTTTCTGATGTCACT--ATTAACCAGGACTTTCATCTCCACCTCTTTTT  12674
+                            |||||   |  |||||    ||  ||||   ||||
+7550665-75609   8679 -------GATGT---TTGATTAA----GA--TTCA---CCAC--------   8701
+
+c99352746-993  12675 GTACTTGTGACTGCGTAAGGCAA----GGAAATTTCTAGTAGGCCA----  12716
+                                       |||||    .||||.||||.||.|| ||
+7550665-75609   8702 ------------------GGCAATGACTGAAAATTCTTGTTGG-CAGAAG   8732
+
+c99352746-993  12717 -TGGAAATA--------TATAACAATAAATCATATCTACACAAAAATC--  12755
+                      .|||||||        |||..|||||   |||.|..|||.|||||||
+7550665-75609   8733 TGGGAAATACTTTTGTGTATTTCAATA---CATGTAAACATAAAAATCAT   8779
+
+c99352746-993  12756 -TAGACA----ACTAATAAATTTGCTCCTTA-ACTTT------GGGCATA  12793
+                      || |||    |..||.||.|||||.|||.| .||||      ||
+7550665-75609   8780 TTA-ACAGATGAAGAAGAATTTTGCCCCTGATGCTTTCTTTTAGG-----   8823
+
+c99352746-993  12794 ACATCTGTACTATAATTTCTCTGTGAGAGAGAGAATAACTA---AGGAC-  12839
+                        |.|||.|.....|||                 ||||||   ||.||
+7550665-75609   8824 ---TTTGTTCCCAGGTTT-----------------TAACTACGCAGCACT   8853
+
+c99352746-993  12840 ----CC---TTGTTTATCTGTGATTTTTTT---TGTGAAAGCACTGTAAA  12879
+                         ||   |||||.| ||||..||.||||   ||||      |||.|||
+7550665-75609   8854 TACTCCATTTTGTTGA-CTGTCTTTATTTTAGATGTG------CTGCAAA   8896
+
+c99352746-993  12880 AGCATATTGAAGTACTCTATCTCTTATTATCCTCAGTT----ATAGCAGT  12925
+                     .|                              ||||||    ||...|||
+7550665-75609   8897 TG------------------------------TCAGTTTGGGATTTTAGT   8916
+
+c99352746-993  12926 CTGGAATGCAG---------------------------CACTTTTTCTAA  12948
+                     .|||.|..|||                           ||.||||.||||
+7550665-75609   8917 GTGGCAAACAGGGAAGGTGGCGAGGACACAGACACCATCAGTTTTGCTAA   8966
+
+c99352746-993  12949 ACTTTCATTTAT----TTGGAAAATCTTCTCTTCAATTCTCCTACTTACC  12994
+                     |         ||    .|||            ||||    ||
+7550665-75609   8967 A---------ATACCGATGG------------TCAA----CC--------   8983
+
+c99352746-993  12995 CTGGTTGAATCTATCAATGATAT-TTTCTTCTTTTCAGGCTTTAAGAGTA  13043
+                          ||||   ..||.|||.|| ||.|..||..|||   ||||
+7550665-75609   8984 -----TGAA---GACAGTGACATGTTGCCCCTGGTCA---TTTA------   9016
+
+c99352746-993  13044 AAGAATCTGTCCCCAAACTTGTGGCTGACTTTATGGCTAAGAAGTTTTCA  13093
+                                |.|||||         |.|||          |||.||.|
+7550665-75609   9017 -----------CTCAAAC---------ATTTT----------AGTGTTTA   9036
+
+c99352746-993  13094 CTGGATGCATTAATA----ACAAATATTTTACCTTTTGAAAAAATA---A  13136
+                     |||.|||.|.||.||    || |||.||.|.|           |||   .
+7550665-75609   9037 CTGAATGAAATAGTAGTTCAC-AATGTTCTGC-----------ATAGAGC   9074
+
+c99352746-993  13137 ATG-AAGGATTTGAC----CTGCTTCGCTCTGGAAAGAGGTAGATTTTAA  13181
+                     ||| |||     .||    ||||            ||
+7550665-75609   9075 ATGCAAG-----CACCACACTGC------------AG-------------   9094
+
+c99352746-993  13182 GTTGTTTTTTTGTTTTGCTTTGTATTCTACAGTAGCGGCGGGGGGGGGGG  13231
+                               |||..|||||.|      ||
+7550665-75609   9095 ----------TGTACTGCTTAG------AC--------------------   9108
+
+c99352746-993  13232 GGGCGTTGTCTAGC--AGAGAATGAAAAGGTGGAAGGATGAGAAAAAATT  13279
+                           |||.||||  |||..||       |.|||.|.|.|||
+7550665-75609   9109 ------TGTTTAGCCAAGACCAT-------TAGAAAGTTCAGA-------   9138
+
+c99352746-993  13280 ACAGTGCCTTGGTTTTCCATTGCCAGTTCAATCTTTGCATGGAGCACATG  13329
+                                  ||.||.||     ||.||.|.|||         ||.|
+7550665-75609   9139 -------------TTGCCCTT-----TTAAACCCTTG---------CAAG   9161
+
+c99352746-993  13330 TAAGGTAATACTGTGAGAAGCTAAAAACAGTTGCTTTGCATTTCCT-AT-  13377
+                     .||||.|||            |||           ||||.|||||| ||
+7550665-75609   9162 AAAGGGAAT------------TAA-----------TTGCCTTTCCTGATT   9188
+
+c99352746-993  13378 -TCTGCTGA---AGGCAAATT------ATGTTGA--TT--ATAG------  13407
+                      ||| ||||   |.|||||||      ||    |  ||  ||||
+7550665-75609   9189 ATCT-CTGATCTATGCAAATTGTCCCCAT----ACCTTAGATAGGCCGGC   9233
+
+c99352746-993  13408 -----CATAACTGAAT-----GATCAGAGTCATTCAG-CCTTCT-TTAAA  13445
+                          |.||||.| ||     |||.|.||.||   || |||.|| ||.||
+7550665-75609   9234 TGCACCCTAACAG-ATGAGGGGATGAAAGCCA---AGCCCTACTGTTGAA   9279
+
+c99352746-993  13446 AGAGAACACTCACTTTGGCCCC---CATCC-CCCTCCAAAAAAAGTTTAA  13491
+                     |.|..|.|.|   |.|||||||   ||||| .|.||||
+7550665-75609   9280 AAATTAAATT---TCTGGCCCCTTTCATCCATCATCCA------------   9314
+
+c99352746-993  13492 GCAACCAGAATTA-TAACATGGAATCACTGACACCTCTGCCTGTCATATA  13540
+                       .|||||||  | .|||||   |||          ||||.||
+7550665-75609   9315 --TACCAGAA--AGCAACAT---ATC----------CTGCTTG-------   9340
+
+c99352746-993  13541 AGTAA-GTGTGACATCTAATGATTGTATATTAAAATTATTTTCAGGACAT  13589
+                     ||.|| |.||.|||          ||||||             ||
+7550665-75609   9341 AGAAAGGAGTCACA----------GTATAT-------------AG-----   9362
+
+c99352746-993  13590 CCTCAGCATATTCATTATGGGAGTAGGTGGAACTACATTGAGATTGATTT  13639
+                      |||||    ||.|||||                         ||.|||.
+7550665-75609   9363 -CTCAG----TTAATTAT-------------------------TTTATTG   9382
+
+c99352746-993  13640 CTAAGTAGATATTACTAGATTTTCCTTTTTCTTTTCTTTTCTTTGCAGTT  13689
+                     |                          .|.||.|||||         |.|
+7550665-75609   9383 C--------------------------ATGCTGTTCTT---------GAT   9397
+
+c99352746-993  13690 TAGAAAAAAAAATTTACTAAGAAAAGTTGTTGTAAAAGAGAAGGGTACTA  13739
+                     .|||||||.|||  ||..|||||||        ||||            |
+7550665-75609   9398 CAGAAAAAGAAA--TAAGAAGAAAA--------AAAA------------A   9425
+
+c99352746-993  13740 AACCCTATTTTAAATATTTGTCTTACATTTTCTCCAAGTCTTAGAAAAAT  13789
+                     ||.||    |||||
+7550665-75609   9426 AAGCC----TTAAA------------------------------------   9435
+
+c99352746-993  13790 AAGCCA------ATTCTATTTCCTACCTCTAACACTTACACTTACAATCA  13833
+                     ||||.|      ||.|    ||.|||||
+7550665-75609   9436 AAGCGAATGGGGATGC----TCATACCT----------------------   9459
+
+c99352746-993  13834 CCTAATATAATGAACTTTGTCACTTGCATTTATATGAGACATAACTGGAA  13883
+                     ..|..|||       |||          ||||..|      |.||||.|
+7550665-75609   9460 GGTGGTAT-------TTT----------TTTAGGT------TTACTGTA-   9485
+
+c99352746-993  13884 ATAGGCAGTTATATCTAATCTCTGCCTTCTAGCTCC----AGAGTCTGAG  13929
+                         ||||                  .|.|||||||    |.||.|||
+7550665-75609   9486 ----GCAG------------------GTGTAGCTCCACTTACAGCCTG--   9511
+
+c99352746-993  13930 ATTTTTCTGCTATCCCACACTTATTTTCATGAGGTTTTCAACTTCAAATA  13979
+                                          ||.|||.|.|.||||||..||  |||||
+7550665-75609   9512 ---------------------TAATTTGAAGGGGTTTTAGAC--CAAAT-   9537
+
+c99352746-993  13980 GTGTTTCTTTGAAACTCACAAAACTATCATACTAGATACTTTATCCGA-C  14028
+                                    |.||.||   ||.|.||.|.|||..|||   || |
+7550665-75609   9538 ---------------TAACCAA---ATTAGACCAAATAAATTA---GACC   9566
+
+c99352746-993  14029 AAATATTCTTGAGGAAGGAAA--------------------GA------C  14052
+                     ||||.||||...||||.||||                    ||      |
+7550665-75609   9567 AAATTTTCTATTGGAAAGAAAATGCTTGTCTTTCCAATGCTGAAGGTCCC   9616
+
+c99352746-993  14053 ACTAGCACCCACAGAGCACC------AGCTGTTCTACTAAGTGT----CT  14092
+                     |||   ||||.|...|||.|      |.|||.|||.|||         ||
+7550665-75609   9617 ACT---ACCCTCCTGGCAGCCTTCAGATCTGCTCTCCTA-----CCCCCT   9658
+
+c99352746-993  14093 TACATGCATTTTCTCATGTGATTCCCAAACAACGCTCAG-----------  14131
+                     |.|     |||.|||||.||||.||  ||..|...||||
+7550665-75609   9659 TTC-----TTTCCTCATTTGATACC--AAGTATATTCAGCTTGCTGGACC   9701
+
+c99352746-993  14132 -TGTCAGTCTCAATCTCATTATCTTAGAGAAGAGAAAACTAAGAAGCAGA  14180
+                      ||     |||.|  |||||.||.||        .||.||  ||.||||.
+7550665-75609   9702 TTG-----CTCCA--TCATTTTCCTA--------CAAGCT--GAGGCAGG   9734
+
+c99352746-993  14181 GAAGGCATGA-------CTTGGTCAAAATCA-------------TCAGGT  14210
+                     |.|||  |||       |.||||.||.|.||             ||||
+7550665-75609   9735 GGAGG--TGAGGAGTACCCTGGTTAAGAGCAATACCCTAGATTTTCAG--   9780
+
+c99352746-993  14211 GGTAGGAAGGAGAGCCAGAATTCGAAG-GAAGATCTTGTTATTAGCAAA-  14258
+                        |||||..||   |||.|||    | |..|||.||||      ||.|
+7550665-75609   9781 ---AGGAAACAG---CAGTATT----GTGCTGATGTTGT------CACAG   9814
+
+c99352746-993  14259 ------TCT--ATTCACTTTCTATTAAACCACACCACCCCTCAAGAGTGT  14300
+                           |||  |.|||||..||                           |
+7550665-75609   9815 GGGTTTTCTGCAGTCACTAACT---------------------------T   9837
+
+c99352746-993  14301 GT-ATATATATATATATATATATATATATATATATATATATATATATATA  14349
+                     || ||                                       |.||||
+7550665-75609   9838 GTCAT---------------------------------------TTTATA   9848
+
+c99352746-993  14350 TAGAAAACAGTATTCATCAAAGGTTAATTATCATTGTCATTATTATTATC  14399
+                     |.|    ||||||||               .||.||||
+7550665-75609   9849 TTG----CAGTATTC---------------GCAGTGTC------------   9867
+
+c99352746-993  14400 ATTGACATCATCATAGAATTGATAAGATGATGGCAAATAGAGATGACCAA  14449
+                      .||||.|          ||  ||.|||  |..|||||   |||
+7550665-75609   9868 -CTGACGT----------TT--TAGGAT--TCCCAAAT---GAT------   9893
+
+c99352746-993  14450 AACCAGAAGACACTATTG----AGCAACAAAAGAAGGCATGGAGCATGCC  14495
+                     ||.|||.|||      ||    ||||.||       |||          |
+7550665-75609   9894 AAGCAGCAGA------TGGCTTAGCAGCA-------GCA----------C   9920
+
+c99352746-993  14496 TAAATTCACTTTACAAGAATGTCATATAGTAATACGCATATGTAAATAAA  14545
+                     .||.|||          |.||||.|
+7550665-75609   9921 AAACTTC----------ATTGTCCT-------------------------   9935
+
+c99352746-993  14546 ATCTTATCAATAAGCAAAGAATAAAAATTGTGATATCAATATTGGTAAGA  14595
+                           .|||||  |||.|.||..|||||||||.|          |||||
+7550665-75609   9936 ------CCAATA--CAATGGATGCAAATTGTGAAA----------TAAGA   9967
+
+c99352746-993  14596 GTAAGGTGACTTGGATGCTTTCATATACTTTCATAGTAATTGATACATCC  14645
+                                          ||     ||||    |.|.||||     |
+7550665-75609   9968 ---------------------CA-----TTTC----TGAATGAT-----C   9982
+
+c99352746-993  14646 TTTTGGGAAAGCAATTTGGTAATTTGTATCAGAAACCTCCAAAAAAAACC  14695
+                     |         ||                 ||.||    |||
+7550665-75609   9983 T---------GC-----------------CACAA----CCA---------   9993
+
+c99352746-993  14696 TAGATCCTTTGTTCCAGCAATACCATTTCTAGAAATCTATTCTATAGAAA  14745
+                          ||.|||       ||||                         |||
+7550665-75609   9994 -----CCCTTG-------AATA-------------------------AAA  10006
+
+c99352746-993  14746 TAATCAA-CTCAAACATACATATATGTTTAAGCATGTTTATTTACTATCA  14794
+                     ..||||| ||| |||||.||                      .|||
+7550665-75609  10007 GGATCAAGCTC-AACATCCA----------------------GACT----  10029
+
+c99352746-993  14795 GTAATATCAATATTTAGAAACATTAGAAAAGTCCAACATTAAGAATATGA  14844
+                                                    ||.||||
+7550665-75609  10030 -------------------------------TCAAACA------------  10036
+
+c99352746-993  14845 TTTAATAAATTCTAAGCAACTGTTAGAAATGAAAAAGACTTCATTGGCAA  14894
+                                  .||||
+7550665-75609  10037 -------------CAGCA--------------------------------  10041
+
+c99352746-993  14895 ATTCTTAAAATGTAATTTTAAACTCATAAAATAAATCATATAAATTGTAT  14944
+                        |||||||               |.||||| ||||||
+7550665-75609  10042 ---CTTAAAA---------------AGAAAAT-AATCAT-----------  10061
+
+c99352746-993  14945 TTATAAGATGATCCCAAATTTTCAAAAAGGACAATAGAAAGTGTATCTGT  14994
+                                |||      |||.|                     ||
+7550665-75609  10062 -----------TCC------TTCTA---------------------CT--  10071
+
+c99352746-993  14995 ATCTAGAAAAAGCTGATAGAATTCAAGAAAACATTGACCATGATTACTCC  15044
+                      ||     |||||    ||.|.|||.|||||
+7550665-75609  10072 -TC-----AAAGC----AGGAATCAGGAAAA-------------------  10092
+
+c99352746-993  15045 GAGGTCGTAAGATTACAGATTTTTTTTAGCGGCTTCTTCTGTCCTGTATT  15094
+                                       ||.|                     ||||||
+7550665-75609  10093 ------------------ATCT---------------------CTGTAT-  10102
+
+c99352746-993  15095 CTCTAAATTATGTGCATATATTTT-TCTTATCTGTGTATA---TAT-ATA  15139
+                               |||||||..||||| |.|||       |||   .|| |||
+7550665-75609  10103 ----------TGTGCATCAATTTTCTTTTA-------ATAGCCAATGATA  10135
+
+c99352746-993  15140 CACACACCACACACACACTATATATAAAATTCTCAGTCGCAAATATCTTC  15189
+                     |   .||||.||                        |||          |
+7550665-75609  10136 C---TACCATAC------------------------TCG----------C  10148
+
+c99352746-993  15190 TTTTCTTAAAAGTGTTCATCAAAAGTTGGTTTATAGAAAAGGCATTAATT  15239
+                     ||||.|.|.|.||||| ||..||    |||||        |||.|||
+7550665-75609  10149 TTTTGTCACAGGTGTT-ATGGAA----GGTTT--------GGCTTTA---  10182
+
+c99352746-993  15240 CTAGTGTAAATGTTACA--TTTCTAATCTTCACAAG-AATGAAGTAGCTT  15286
+                         |.|||     |||  ||       ||.|||.| |||       |||
+7550665-75609  10183 ----TTTAA-----ACAGCTT-------TTAACAGGCAAT-------CTT  10209
+
+c99352746-993  15287 AGAATTAATACAAATCAGCTTTATTCTCTACTTCTAAGAATCCTTAAACA  15336
+                         |||||| |||..|                  ||.||     |||.|
+7550665-75609  10210 ----TTAATA-AAAGGA------------------AAAAA-----AAAAA  10231
+
+c99352746-993  15337 TCTCTGTATCAAAGGTCTATTAAACCTCCAGCATGGTCCTAACTTTATTA  15386
+                               |||        |||     ||||       ||||.|
+7550665-75609  10232 ----------AAA--------AAA-----AGCA-------AACTGT----  10247
+
+c99352746-993  15387 AATTATCAGTTCTTTCAGGCAAGGTATCTATCATTATATAATTTG-TGCA  15435
+                              ||||||  ||          |||.|.|||.|    | ||||
+7550665-75609  10248 ---------TTCTTT--GG----------ATCTTAATAAA----GCTGCA  10272
+
+c99352746-993  15436 AATTTGTATTTGGGTTTGAATCCCAACACCCTATACTAGATGTGCGACCA  15485
+                     |.|||                   ||||.|..|.||          |||
+7550665-75609  10273 AGTTT-------------------AACAGCTCACAC----------ACC-  10292
+
+c99352746-993  15486 GAGCAAATTACAAATCTTTCTAAGT----CTCAGTTTTTAT-AATCTCTA  15530
+                      ||.||||||           ||||    ||||      || ||.|||||
+7550665-75609  10293 -AGGAAATTA-----------AAGTACTACTCA------ATAAAACTCTA  10324
+
+c99352746-993  15531 AATGGAAATAATATGGAAACCAACTTCCTATCGTCATTGTTTAGGTTGAG  15580
+                     ..|
+7550665-75609  10325 GGT-----------------------------------------------  10327
+
+c99352746-993  15581 ATTTAAGTGAAAAAAATGCATGAAGCATGTGACAAATAGCAAAAACTTAT  15630
+
+7550665-75609  10328 --------------------------------------------------  10327
+
+c99352746-993  15631 TGCATGTTATTATCTATTGTTATTTTATATTCCTTATTATACCAGGAACT  15680
+
+7550665-75609  10328 --------------------------------------------------  10327
+
+c99352746-993  15681 TGGGCACGCCAAAATGATTTTTTGAAGATGCTAATGTAGATCTGAAGTCT  15730
+
+7550665-75609  10328 --------------------------------------------------  10327
+
+c99352746-993  15731 AAATGACAGGCATACTCAGGAGGTTTTGAGTGAGCTTAAGATTGAAGAAA  15780
+
+7550665-75609  10328 --------------------------------------------------  10327
+
+c99352746-993  15781 ACACAAGAGAAAACCAAAAAACATGAACTTCCCTTCACTTGACTTGACCC  15830
+
+7550665-75609  10328 --------------------------------------------------  10327
+
+c99352746-993  15831 AAATGCATAGGGATGGGAAGGGAGTGGCTGAGAACACAGAGAGATTTTCA  15880
+
+7550665-75609  10328 --------------------------------------------------  10327
+
+c99352746-993  15881 CTAAGTCACCTCAAATACTCCTTGGACTATCACATGGAAGCATGTGGGTT  15930
+
+7550665-75609  10328 --------------------------------------------------  10327
+
+c99352746-993  15931 GTCTAAATGTTAACACAATGTCTCTTCTTTCCTATTGCAGTATCCGTACC  15980
+
+7550665-75609  10328 --------------------------------------------------  10327
+
+c99352746-993  15981 GTCCTGACGTTTTGAAACAATACAGATGCCTTCCCTTGTAGCAGTTTTCA  16030
+
+7550665-75609  10328 --------------------------------------------------  10327
+
+c99352746-993  16031 GCCTCCTCTACCCTACATGATCTGGAGCAACAGCTAGGAAATATCATTAA  16080
+
+7550665-75609  10328 --------------------------------------------------  10327
+
+c99352746-993  16081 TTCTGCTCTTCAGAGATGTTAAAAATAAATTACACGTGGGAGCTTTCCAA  16130
+
+7550665-75609  10328 --------------------------------------------------  10327
+
+c99352746-993  16131 AGAAATGGAAATTGATGGGAAATTATTTGTCAAGCAAATGTTTAAAATCC  16180
+
+7550665-75609  10328 --------------------------------------------------  10327
+
+c99352746-993  16181 AAATGAGAACTAAATAAAGTGTTGAACATCAACTGGGGAATTGAAGCCAA  16230
+
+7550665-75609  10328 --------------------------------------------------  10327
+
+c99352746-993  16231 TAAACCTTCCTTCTTAACCA  16250
+
+7550665-75609  10328 --------------------  10327
+
+
+#---------------------------------------
+#---------------------------------------
