@@ -2,6 +2,6 @@
 Выполненные домашние задания в рамках курса Биоинформатика
 
 ## Задания
-- [x] <a href="" style="color: black">Домашнее задание 0</a>
-- [x] <a href="" style="color: black">Домашнее задание 1</a>
-- [ ] <a href="" style="color: grey">Домашнее задание 1</a>
+- [x] [Домашнее задание 0](https://github.com/PeachMood/bioinformatics/tree/main/task0)
+- [x] [Домашнее задание 1](https://github.com/PeachMood/bioinformatics/tree/main/task1)
+- [ ] Домашнее зажание 2
