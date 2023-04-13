@@ -27,17 +27,17 @@ Optimization - Highly similar sequences (megablast)
 Entrez query: mammals (excluded)
 
 ## Гомологичные гены
-Scientific Name \ Per. Ident
-1. Zonotrichia albicollis insulin 78.77%
-2. Pyrgilauda ruficollis insulin 79.19%
-3. Motacilla alba alba insulin 77.14%
-4. Serinus canaria insulin 78.49%
-5. Vidua chalybeata insulin 77.84%
-6. Dromaius novaehollandiae preproinsulin gene, exon 2 and partial cds 76.25%
-7. Columba livia insulin 75.29%
-8. Sturnus vulgaris insulin 74.58%
-9. Struthio camelus australis insulin 75.14%
-10.	Parus major insulin 75.28%
+Ген \ Систематическое название \ На русском  \ Per. Ident
+1. INS, Zonotrichia albicollis, Белошейная зонотрихия, 78.77%
+2. INS, Pyrgilauda ruficollis, Красношейный снежный вьюрок, 79.19%
+3. INS, Motacilla alba, Белая трясогузка, 77.14%
+4. INS, Serinus canaria, Канарский канареечный вьюрок, 78.49%
+5. INS, Vidua chalybeata, Красноногая вдовушка, 77.84%
+6. reproinsulin, Dromaius novaehollandiae, Эму, 76.25%
+7. INS, Columba livia, Сизый голубь, 75.29%
+8. INS, Sturnus vulgaris, Обыкновенный скворец, 74.58%
+9. INS, Struthio camelus australis, Южноафриканский страус, 75.14%
+10.	INS, Parus major, Большая синица, 75.28%
 
 ## Анализ выравнивания
 Мы можем видеть, что первые несколько позиций в большей части последовательностей не сохраняются и имеют высокую степень вариации между последовательностями. По мере продвижения вниз по выравниванию мы начинаем видеть более консервативные позиции, которые представлены одним нуклеотидом в большинстве последовательностей.
