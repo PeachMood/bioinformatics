@@ -17,13 +17,13 @@
 4. Ламинария сахаристая
 
 ## Человеческий ген
-Ген: INS [[NCBI](https://www.ncbi.nlm.nih.gov/gene/7124)].
+Ген: INS [[NCBI](https://www.ncbi.nlm.nih.gov/gene/7124)].<br/>
 Полное имя: insulin.
 
 ## Параметры BLAST
 Program: blastn.
-Database - nucleotide collection (nr/rt).
-Optimization - Highly similar sequences (megablast).
+Database - nucleotide collection (nr/rt).<br/>
+Optimization - Highly similar sequences (megablast).<br/>
 Entrez query: mammals (excluded).
 
 ## Гомологичные гены
