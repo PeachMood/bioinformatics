@@ -8,7 +8,7 @@
 Референсный геном: https://www.ncbi.nlm.nih.gov/assembly/GCF_000005845.2/
 
 ## Скрипт на bash с реализованным алгоритмом
-https://github.com/PeachMood/bioinformatics/blob/main/task3/get_percent.sh
+https://github.com/PeachMood/bioinformatics/blob/7f4bb2ce78a20f93fce95ce91b401e329cb4efc8/task3/get_percent.sh
 
 ## Алгоритм получения генетических вариантов
 1. Скачать необоходимые данные
