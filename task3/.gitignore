@@ -1,0 +1,12 @@
+./bash/output/*
+!./bash/output/qcreport.html
+!./bash/output/flagstat.txt
+!./bash/output/result.vcf
+
+./pipeline/__pycache__/*
+./pipeline/output/*
+!./pipeline/output/qcreport.html
+!./pipeline/output/flagstat.txt
+!./pipeline/output/result.vcf
+
+./test/__pycache__/*
