@@ -1,0 +1,17 @@
+2023-05-25 03:12:20 +0700 - dagster - DEBUG - test_dagster - d48603d8-3c00-4e1d-b374-7a1982e8521f - 297102 - RUN_START - Started execution of run for "test_dagster".
+2023-05-25 03:12:20 +0700 - dagster - DEBUG - test_dagster - d48603d8-3c00-4e1d-b374-7a1982e8521f - 297102 - ENGINE_EVENT - Executing steps using multiprocess executor: parent process (pid: 297102)
+2023-05-25 03:12:20 +0700 - dagster - DEBUG - test_dagster - d48603d8-3c00-4e1d-b374-7a1982e8521f - 297102 - print_hello_world - STEP_WORKER_STARTING - Launching subprocess for "print_hello_world".
+2023-05-25 03:12:21 +0700 - dagster - DEBUG - test_dagster - d48603d8-3c00-4e1d-b374-7a1982e8521f - 297105 - STEP_WORKER_STARTED - Executing step "print_hello_world" in subprocess.
+2023-05-25 03:12:21 +0700 - dagster - DEBUG - test_dagster - d48603d8-3c00-4e1d-b374-7a1982e8521f - 297105 - print_hello_world - RESOURCE_INIT_STARTED - Starting initialization of resources [io_manager].
+2023-05-25 03:12:21 +0700 - dagster - DEBUG - test_dagster - d48603d8-3c00-4e1d-b374-7a1982e8521f - 297105 - print_hello_world - RESOURCE_INIT_SUCCESS - Finished initialization of resources [io_manager].
+2023-05-25 03:12:21 +0700 - dagster - DEBUG - test_dagster - d48603d8-3c00-4e1d-b374-7a1982e8521f - 297105 - LOGS_CAPTURED - Started capturing logs in process (pid: 297105).
+2023-05-25 03:12:21 +0700 - dagster - DEBUG - test_dagster - d48603d8-3c00-4e1d-b374-7a1982e8521f - 297105 - print_hello_world - STEP_START - Started execution of step "print_hello_world".
+2023-05-25 03:12:21 +0700 - dagster - INFO - test_dagster - d48603d8-3c00-4e1d-b374-7a1982e8521f - print_hello_world - Hello, world!
+2023-05-25 03:12:21 +0700 - dagster - DEBUG - test_dagster - d48603d8-3c00-4e1d-b374-7a1982e8521f - 297105 - print_hello_world - STEP_OUTPUT - Yielded output "result" of type "Any". (Type check passed).
+2023-05-25 03:12:21 +0700 - dagster - DEBUG - test_dagster - d48603d8-3c00-4e1d-b374-7a1982e8521f - print_hello_world - Writing file at: /home/ann/projects/bioinformatics/task3/test/tmpeq05fjc8/storage/d48603d8-3c00-4e1d-b374-7a1982e8521f/print_hello_world/result
+2023-05-25 03:12:21 +0700 - dagster - DEBUG - test_dagster - d48603d8-3c00-4e1d-b374-7a1982e8521f - 297105 - print_hello_world - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
+2023-05-25 03:12:21 +0700 - dagster - DEBUG - test_dagster - d48603d8-3c00-4e1d-b374-7a1982e8521f - 297105 - print_hello_world - STEP_SUCCESS - Finished execution of step "print_hello_world" in 25ms.
+2023-05-25 03:12:21 +0700 - dagster - DEBUG - test_dagster - d48603d8-3c00-4e1d-b374-7a1982e8521f - 297102 - ENGINE_EVENT - Multiprocess executor: parent process exiting after 766ms (pid: 297102)
+2023-05-25 03:12:21 +0700 - dagster - DEBUG - test_dagster - d48603d8-3c00-4e1d-b374-7a1982e8521f - 297102 - RUN_SUCCESS - Finished execution of run for "test_dagster".
+2023-05-25 03:12:21 +0700 - dagster - DEBUG - test_dagster - d48603d8-3c00-4e1d-b374-7a1982e8521f - 297102 - print_hello_world - RESOURCE_INIT_STARTED - Starting initialization of resources [io_manager].
+2023-05-25 03:12:21 +0700 - dagster - DEBUG - test_dagster - d48603d8-3c00-4e1d-b374-7a1982e8521f - 297102 - print_hello_world - RESOURCE_INIT_SUCCESS - Finished initialization of resources [io_manager].

@@ -1,0 +1,200 @@
+2023-05-25 02:42:46 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 282723 - RUN_START - Started execution of run for "genetic_variants".
+2023-05-25 02:42:46 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 282723 - ENGINE_EVENT - Executing steps using multiprocess executor: parent process (pid: 282723)
+2023-05-25 02:42:46 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 282723 - pre_stage - STEP_WORKER_STARTING - Launching subprocess for "pre_stage".
+2023-05-25 02:42:46 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 282726 - STEP_WORKER_STARTED - Executing step "pre_stage" in subprocess.
+2023-05-25 02:42:46 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 282726 - pre_stage - RESOURCE_INIT_STARTED - Starting initialization of resources [io_manager].
+2023-05-25 02:42:46 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 282726 - pre_stage - RESOURCE_INIT_SUCCESS - Finished initialization of resources [io_manager].
+2023-05-25 02:42:46 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 282726 - LOGS_CAPTURED - Started capturing logs in process (pid: 282726).
+2023-05-25 02:42:46 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 282726 - pre_stage - STEP_START - Started execution of step "pre_stage".
+2023-05-25 02:42:46 +0700 - dagster - INFO - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - pre_stage - Создание папки для выходных данных
+2023-05-25 02:42:46 +0700 - dagster - INFO - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - pre_stage - Сбор данных
+2023-05-25 02:42:46 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 282726 - pre_stage - STEP_OUTPUT - Yielded output "result" of type "Any". (Type check passed).
+2023-05-25 02:42:46 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - pre_stage - Writing file at: /home/ann/projects/bioinformatics/task3/pipeline/tmplzfp0q8z/storage/786a2712-84a4-498a-8e8f-37ae128a901d/pre_stage/result
+2023-05-25 02:42:46 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 282726 - pre_stage - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
+2023-05-25 02:42:46 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 282726 - pre_stage - STEP_SUCCESS - Finished execution of step "pre_stage" in 33ms.
+2023-05-25 02:42:46 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 282723 - index_reference_sequence - STEP_WORKER_STARTING - Launching subprocess for "index_reference_sequence".
+2023-05-25 02:42:46 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 282723 - quality_control - STEP_WORKER_STARTING - Launching subprocess for "quality_control".
+2023-05-25 02:42:47 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 282748 - STEP_WORKER_STARTED - Executing step "index_reference_sequence" in subprocess.
+2023-05-25 02:42:47 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 282748 - index_reference_sequence - RESOURCE_INIT_STARTED - Starting initialization of resources [io_manager].
+2023-05-25 02:42:47 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 282748 - index_reference_sequence - RESOURCE_INIT_SUCCESS - Finished initialization of resources [io_manager].
+2023-05-25 02:42:47 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 282749 - STEP_WORKER_STARTED - Executing step "quality_control" in subprocess.
+2023-05-25 02:42:47 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 282748 - LOGS_CAPTURED - Started capturing logs in process (pid: 282748).
+2023-05-25 02:42:47 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 282749 - quality_control - RESOURCE_INIT_STARTED - Starting initialization of resources [io_manager].
+2023-05-25 02:42:47 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 282748 - index_reference_sequence - STEP_START - Started execution of step "index_reference_sequence".
+2023-05-25 02:42:47 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 282749 - quality_control - RESOURCE_INIT_SUCCESS - Finished initialization of resources [io_manager].
+2023-05-25 02:42:47 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - index_reference_sequence - Loading file from: /home/ann/projects/bioinformatics/task3/pipeline/tmplzfp0q8z/storage/786a2712-84a4-498a-8e8f-37ae128a901d/pre_stage/result
+2023-05-25 02:42:47 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 282749 - LOGS_CAPTURED - Started capturing logs in process (pid: 282749).
+2023-05-25 02:42:47 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 282748 - index_reference_sequence - LOADED_INPUT - Loaded input "data" using input manager "io_manager", from output "result" of step "pre_stage"
+2023-05-25 02:42:47 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 282749 - quality_control - STEP_START - Started execution of step "quality_control".
+2023-05-25 02:42:47 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 282748 - index_reference_sequence - STEP_INPUT - Got input "data" of type "Any". (Type check passed).
+2023-05-25 02:42:47 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - quality_control - Loading file from: /home/ann/projects/bioinformatics/task3/pipeline/tmplzfp0q8z/storage/786a2712-84a4-498a-8e8f-37ae128a901d/pre_stage/result
+2023-05-25 02:42:47 +0700 - dagster - INFO - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - index_reference_sequence - Индексация референсной последовательности
+[bwa_index] Pack FASTA... 2023-05-25 02:42:47 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 282749 - quality_control - LOADED_INPUT - Loaded input "data" using input manager "io_manager", from output "result" of step "pre_stage"
+2023-05-25 02:42:47 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 282749 - quality_control - STEP_INPUT - Got input "data" of type "Any". (Type check passed).
+2023-05-25 02:42:47 +0700 - dagster - INFO - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - quality_control - Контроль качества видов
+Unknown option: p
+0.03 sec
+[bwa_index] Construct BWT for the packed sequence...
+Started analysis of ecoli.fastq
+Approx 5% complete for ecoli.fastq
+Approx 10% complete for ecoli.fastq
+Approx 15% complete for ecoli.fastq
+Approx 20% complete for ecoli.fastq
+Approx 25% complete for ecoli.fastq
+Approx 30% complete for ecoli.fastq
+Approx 35% complete for ecoli.fastq
+Approx 40% complete for ecoli.fastq
+Approx 45% complete for ecoli.fastq
+Approx 50% complete for ecoli.fastq
+Approx 55% complete for ecoli.fastq
+Approx 60% complete for ecoli.fastq
+Approx 65% complete for ecoli.fastq
+Approx 70% complete for ecoli.fastq
+Approx 75% complete for ecoli.fastq
+Approx 80% complete for ecoli.fastq
+[bwa_index] 1.13 seconds elapse.
+[bwa_index] Update BWT... Approx 85% complete for ecoli.fastq
+0.02 sec
+[bwa_index] Pack forward-only FASTA... 0.01 sec
+[bwa_index] Construct SA from BWT and Occ... Approx 90% complete for ecoli.fastq
+Approx 95% complete for ecoli.fastq
+Analysis complete for ecoli.fastq
+0.38 sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa index -p ./output/ecoli.fna ecoli.fna
+[main] Real time: 1.667 sec; CPU: 1.583 sec
+2023-05-25 02:42:49 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 282748 - index_reference_sequence - STEP_OUTPUT - Yielded output "result" of type "Any". (Type check passed).
+2023-05-25 02:42:49 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - index_reference_sequence - Writing file at: /home/ann/projects/bioinformatics/task3/pipeline/tmplzfp0q8z/storage/786a2712-84a4-498a-8e8f-37ae128a901d/index_reference_sequence/result
+2023-05-25 02:42:49 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 282748 - index_reference_sequence - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
+2023-05-25 02:42:49 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 282748 - index_reference_sequence - STEP_SUCCESS - Finished execution of step "index_reference_sequence" in 1.7s.
+2023-05-25 02:42:49 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 282723 - perform_alignment - STEP_WORKER_STARTING - Launching subprocess for "perform_alignment".
+2023-05-25 02:42:50 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 282853 - STEP_WORKER_STARTED - Executing step "perform_alignment" in subprocess.
+2023-05-25 02:42:50 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 282853 - perform_alignment - RESOURCE_INIT_STARTED - Starting initialization of resources [io_manager].
+2023-05-25 02:42:50 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 282853 - perform_alignment - RESOURCE_INIT_SUCCESS - Finished initialization of resources [io_manager].
+2023-05-25 02:42:50 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 282853 - LOGS_CAPTURED - Started capturing logs in process (pid: 282853).
+2023-05-25 02:42:50 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 282853 - perform_alignment - STEP_START - Started execution of step "perform_alignment".
+2023-05-25 02:42:50 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - perform_alignment - Loading file from: /home/ann/projects/bioinformatics/task3/pipeline/tmplzfp0q8z/storage/786a2712-84a4-498a-8e8f-37ae128a901d/pre_stage/result
+2023-05-25 02:42:50 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 282853 - perform_alignment - LOADED_INPUT - Loaded input "data" using input manager "io_manager", from output "result" of step "pre_stage"
+2023-05-25 02:42:50 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - perform_alignment - Loading file from: /home/ann/projects/bioinformatics/task3/pipeline/tmplzfp0q8z/storage/786a2712-84a4-498a-8e8f-37ae128a901d/index_reference_sequence/result
+2023-05-25 02:42:50 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 282853 - perform_alignment - LOADED_INPUT - Loaded input "index_file" using input manager "io_manager", from output "result" of step "index_reference_sequence"
+2023-05-25 02:42:50 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 282853 - perform_alignment - STEP_INPUT - Got input "data" of type "Any". (Type check passed).
+2023-05-25 02:42:50 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 282853 - perform_alignment - STEP_INPUT - Got input "index_file" of type "Any". (Type check passed).
+2023-05-25 02:42:50 +0700 - dagster - INFO - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - perform_alignment - Построение выравнивания прочтений и референса в формате sam
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 33224 sequences (10000424 bp)...
+[M::process] read 33224 sequences (10000424 bp)...
+2023-05-25 02:42:50 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 282749 - quality_control - STEP_OUTPUT - Yielded output "result" of type "Any". (Type check passed).
+2023-05-25 02:42:50 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - quality_control - Writing file at: /home/ann/projects/bioinformatics/task3/pipeline/tmplzfp0q8z/storage/786a2712-84a4-498a-8e8f-37ae128a901d/quality_control/result
+2023-05-25 02:42:50 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 282749 - quality_control - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
+2023-05-25 02:42:50 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 282749 - quality_control - STEP_SUCCESS - Finished execution of step "quality_control" in 3.2s.
+[M::mem_process_seqs] Processed 33224 reads in 14.483 CPU sec, 14.473 real sec
+[M::process] read 2218 sequences (667618 bp)...
+[M::mem_process_seqs] Processed 33224 reads in 15.133 CPU sec, 15.137 real sec
+[M::mem_process_seqs] Processed 2218 reads in 1.048 CPU sec, 1.020 real sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem ./output/ecoli.fna ecoli.fastq
+[main] Real time: 30.713 sec; CPU: 30.716 sec
+2023-05-25 02:43:20 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 282853 - perform_alignment - STEP_OUTPUT - Yielded output "result" of type "Any". (Type check passed).
+2023-05-25 02:43:20 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - perform_alignment - Writing file at: /home/ann/projects/bioinformatics/task3/pipeline/tmplzfp0q8z/storage/786a2712-84a4-498a-8e8f-37ae128a901d/perform_alignment/result
+2023-05-25 02:43:20 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 282853 - perform_alignment - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
+2023-05-25 02:43:20 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 282853 - perform_alignment - STEP_SUCCESS - Finished execution of step "perform_alignment" in 30.75s.
+2023-05-25 02:43:21 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 282723 - convert_to_bam - STEP_WORKER_STARTING - Launching subprocess for "convert_to_bam".
+2023-05-25 02:43:21 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 283531 - STEP_WORKER_STARTED - Executing step "convert_to_bam" in subprocess.
+2023-05-25 02:43:21 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 283531 - convert_to_bam - RESOURCE_INIT_STARTED - Starting initialization of resources [io_manager].
+2023-05-25 02:43:21 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 283531 - convert_to_bam - RESOURCE_INIT_SUCCESS - Finished initialization of resources [io_manager].
+2023-05-25 02:43:21 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 283531 - LOGS_CAPTURED - Started capturing logs in process (pid: 283531).
+2023-05-25 02:43:21 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 283531 - convert_to_bam - STEP_START - Started execution of step "convert_to_bam".
+2023-05-25 02:43:21 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - convert_to_bam - Loading file from: /home/ann/projects/bioinformatics/task3/pipeline/tmplzfp0q8z/storage/786a2712-84a4-498a-8e8f-37ae128a901d/perform_alignment/result
+2023-05-25 02:43:21 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 283531 - convert_to_bam - LOADED_INPUT - Loaded input "sam_file" using input manager "io_manager", from output "result" of step "perform_alignment"
+2023-05-25 02:43:21 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 283531 - convert_to_bam - STEP_INPUT - Got input "sam_file" of type "Any". (Type check passed).
+2023-05-25 02:43:21 +0700 - dagster - INFO - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - convert_to_bam - Конвертирование формата sam в bam
+2023-05-25 02:43:22 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 283531 - convert_to_bam - STEP_OUTPUT - Yielded output "result" of type "Any". (Type check passed).
+2023-05-25 02:43:22 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - convert_to_bam - Writing file at: /home/ann/projects/bioinformatics/task3/pipeline/tmplzfp0q8z/storage/786a2712-84a4-498a-8e8f-37ae128a901d/convert_to_bam/result
+2023-05-25 02:43:22 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 283531 - convert_to_bam - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
+2023-05-25 02:43:22 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 283531 - convert_to_bam - STEP_SUCCESS - Finished execution of step "convert_to_bam" in 645ms.
+2023-05-25 02:43:22 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 282723 - perform_evaluation - STEP_WORKER_STARTING - Launching subprocess for "perform_evaluation".
+2023-05-25 02:43:23 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 283553 - STEP_WORKER_STARTED - Executing step "perform_evaluation" in subprocess.
+2023-05-25 02:43:23 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 283553 - perform_evaluation - RESOURCE_INIT_STARTED - Starting initialization of resources [io_manager].
+2023-05-25 02:43:23 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 283553 - perform_evaluation - RESOURCE_INIT_SUCCESS - Finished initialization of resources [io_manager].
+2023-05-25 02:43:23 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 283553 - LOGS_CAPTURED - Started capturing logs in process (pid: 283553).
+2023-05-25 02:43:23 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 283553 - perform_evaluation - STEP_START - Started execution of step "perform_evaluation".
+2023-05-25 02:43:23 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - perform_evaluation - Loading file from: /home/ann/projects/bioinformatics/task3/pipeline/tmplzfp0q8z/storage/786a2712-84a4-498a-8e8f-37ae128a901d/convert_to_bam/result
+2023-05-25 02:43:23 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 283553 - perform_evaluation - LOADED_INPUT - Loaded input "bam_file" using input manager "io_manager", from output "result" of step "convert_to_bam"
+2023-05-25 02:43:23 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 283553 - perform_evaluation - STEP_INPUT - Got input "bam_file" of type "Any". (Type check passed).
+2023-05-25 02:43:23 +0700 - dagster - INFO - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - perform_evaluation - Построение оценки
+2023-05-25 02:43:23 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 283553 - perform_evaluation - STEP_OUTPUT - Yielded output "result" of type "Any". (Type check passed).
+2023-05-25 02:43:23 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - perform_evaluation - Writing file at: /home/ann/projects/bioinformatics/task3/pipeline/tmplzfp0q8z/storage/786a2712-84a4-498a-8e8f-37ae128a901d/perform_evaluation/result
+2023-05-25 02:43:23 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 283553 - perform_evaluation - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
+2023-05-25 02:43:23 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 283553 - perform_evaluation - STEP_SUCCESS - Finished execution of step "perform_evaluation" in 153ms.
+2023-05-25 02:43:23 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 282723 - parse_evaluation_result - STEP_WORKER_STARTING - Launching subprocess for "parse_evaluation_result".
+2023-05-25 02:43:24 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 283562 - STEP_WORKER_STARTED - Executing step "parse_evaluation_result" in subprocess.
+2023-05-25 02:43:24 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 283562 - parse_evaluation_result - RESOURCE_INIT_STARTED - Starting initialization of resources [io_manager].
+2023-05-25 02:43:24 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 283562 - parse_evaluation_result - RESOURCE_INIT_SUCCESS - Finished initialization of resources [io_manager].
+2023-05-25 02:43:24 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 283562 - LOGS_CAPTURED - Started capturing logs in process (pid: 283562).
+2023-05-25 02:43:24 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 283562 - parse_evaluation_result - STEP_START - Started execution of step "parse_evaluation_result".
+2023-05-25 02:43:24 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - parse_evaluation_result - Loading file from: /home/ann/projects/bioinformatics/task3/pipeline/tmplzfp0q8z/storage/786a2712-84a4-498a-8e8f-37ae128a901d/perform_evaluation/result
+2023-05-25 02:43:24 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 283562 - parse_evaluation_result - LOADED_INPUT - Loaded input "flagstat_file" using input manager "io_manager", from output "result" of step "perform_evaluation"
+2023-05-25 02:43:24 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 283562 - parse_evaluation_result - STEP_INPUT - Got input "flagstat_file" of type "Any". (Type check passed).
+2023-05-25 02:43:24 +0700 - dagster - INFO - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - parse_evaluation_result - Получение результата оценивания при помощи скрипта
+2023-05-25 02:43:24 +0700 - dagster - INFO - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - parse_evaluation_result - OK
+2023-05-25 02:43:24 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 283562 - parse_evaluation_result - STEP_OUTPUT - Yielded output "ok_result" of type "Any". (Type check passed).
+2023-05-25 02:43:24 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - parse_evaluation_result - Writing file at: /home/ann/projects/bioinformatics/task3/pipeline/tmplzfp0q8z/storage/786a2712-84a4-498a-8e8f-37ae128a901d/parse_evaluation_result/ok_result
+2023-05-25 02:43:24 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 283562 - parse_evaluation_result - HANDLED_OUTPUT - Handled output "ok_result" using IO manager "io_manager"
+2023-05-25 02:43:24 +0700 - dagster - INFO - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - parse_evaluation_result - op 'parse_evaluation_result' did not fire outputs {'bad_result'}
+2023-05-25 02:43:24 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 283562 - parse_evaluation_result - STEP_SUCCESS - Finished execution of step "parse_evaluation_result" in 57ms.
+2023-05-25 02:43:24 +0700 - dagster - INFO - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - print_bad_result - Skipping step print_bad_result due to skipped dependencies: ['parse_evaluation_result.bad_result'].
+2023-05-25 02:43:24 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 282723 - print_bad_result - STEP_SKIPPED - Skipped execution of step "print_bad_result".
+2023-05-25 02:43:24 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 282723 - print_ok_result - STEP_WORKER_STARTING - Launching subprocess for "print_ok_result".
+2023-05-25 02:43:24 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 283571 - STEP_WORKER_STARTED - Executing step "print_ok_result" in subprocess.
+2023-05-25 02:43:24 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 283571 - print_ok_result - RESOURCE_INIT_STARTED - Starting initialization of resources [io_manager].
+2023-05-25 02:43:24 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 283571 - print_ok_result - RESOURCE_INIT_SUCCESS - Finished initialization of resources [io_manager].
+2023-05-25 02:43:24 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 283571 - LOGS_CAPTURED - Started capturing logs in process (pid: 283571).
+2023-05-25 02:43:24 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 283571 - print_ok_result - STEP_START - Started execution of step "print_ok_result".
+2023-05-25 02:43:24 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - print_ok_result - Loading file from: /home/ann/projects/bioinformatics/task3/pipeline/tmplzfp0q8z/storage/786a2712-84a4-498a-8e8f-37ae128a901d/parse_evaluation_result/ok_result
+2023-05-25 02:43:24 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 283571 - print_ok_result - LOADED_INPUT - Loaded input "ok_result" using input manager "io_manager", from output "ok_result" of step "parse_evaluation_result"
+2023-05-25 02:43:24 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 283571 - print_ok_result - STEP_INPUT - Got input "ok_result" of type "Any". (Type check passed).
+2023-05-25 02:43:24 +0700 - dagster - INFO - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - print_ok_result - Качество выравнивания: OK
+2023-05-25 02:43:25 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 283571 - print_ok_result - STEP_OUTPUT - Yielded output "result" of type "Any". (Type check passed).
+2023-05-25 02:43:25 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - print_ok_result - Writing file at: /home/ann/projects/bioinformatics/task3/pipeline/tmplzfp0q8z/storage/786a2712-84a4-498a-8e8f-37ae128a901d/print_ok_result/result
+2023-05-25 02:43:25 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 283571 - print_ok_result - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
+2023-05-25 02:43:25 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 283571 - print_ok_result - STEP_SUCCESS - Finished execution of step "print_ok_result" in 30ms.
+2023-05-25 02:43:25 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 282723 - sort_alignment - STEP_WORKER_STARTING - Launching subprocess for "sort_alignment".
+2023-05-25 02:43:25 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 283579 - STEP_WORKER_STARTED - Executing step "sort_alignment" in subprocess.
+2023-05-25 02:43:25 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 283579 - sort_alignment - RESOURCE_INIT_STARTED - Starting initialization of resources [io_manager].
+2023-05-25 02:43:25 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 283579 - sort_alignment - RESOURCE_INIT_SUCCESS - Finished initialization of resources [io_manager].
+2023-05-25 02:43:25 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 283579 - LOGS_CAPTURED - Started capturing logs in process (pid: 283579).
+2023-05-25 02:43:25 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 283579 - sort_alignment - STEP_START - Started execution of step "sort_alignment".
+2023-05-25 02:43:25 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - sort_alignment - Loading file from: /home/ann/projects/bioinformatics/task3/pipeline/tmplzfp0q8z/storage/786a2712-84a4-498a-8e8f-37ae128a901d/print_ok_result/result
+2023-05-25 02:43:25 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 283579 - sort_alignment - LOADED_INPUT - Loaded input "ok_result" using input manager "io_manager", from output "result" of step "print_ok_result"
+2023-05-25 02:43:25 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - sort_alignment - Loading file from: /home/ann/projects/bioinformatics/task3/pipeline/tmplzfp0q8z/storage/786a2712-84a4-498a-8e8f-37ae128a901d/convert_to_bam/result
+2023-05-25 02:43:25 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 283579 - sort_alignment - LOADED_INPUT - Loaded input "bam_file" using input manager "io_manager", from output "result" of step "convert_to_bam"
+2023-05-25 02:43:25 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 283579 - sort_alignment - STEP_INPUT - Got input "ok_result" of type "Any". (Type check passed).
+2023-05-25 02:43:25 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 283579 - sort_alignment - STEP_INPUT - Got input "bam_file" of type "Any". (Type check passed).
+2023-05-25 02:43:25 +0700 - dagster - INFO - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - sort_alignment - Cортировка полученного выравнивания
+2023-05-25 02:43:26 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 283579 - sort_alignment - STEP_OUTPUT - Yielded output "result" of type "Any". (Type check passed).
+2023-05-25 02:43:26 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - sort_alignment - Writing file at: /home/ann/projects/bioinformatics/task3/pipeline/tmplzfp0q8z/storage/786a2712-84a4-498a-8e8f-37ae128a901d/sort_alignment/result
+2023-05-25 02:43:26 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 283579 - sort_alignment - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
+2023-05-25 02:43:26 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 283579 - sort_alignment - STEP_SUCCESS - Finished execution of step "sort_alignment" in 686ms.
+2023-05-25 02:43:26 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 282723 - perform_variant_calling - STEP_WORKER_STARTING - Launching subprocess for "perform_variant_calling".
+2023-05-25 02:43:27 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 283603 - STEP_WORKER_STARTED - Executing step "perform_variant_calling" in subprocess.
+2023-05-25 02:43:27 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 283603 - perform_variant_calling - RESOURCE_INIT_STARTED - Starting initialization of resources [io_manager].
+2023-05-25 02:43:27 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 283603 - perform_variant_calling - RESOURCE_INIT_SUCCESS - Finished initialization of resources [io_manager].
+2023-05-25 02:43:27 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 283603 - LOGS_CAPTURED - Started capturing logs in process (pid: 283603).
+2023-05-25 02:43:27 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 283603 - perform_variant_calling - STEP_START - Started execution of step "perform_variant_calling".
+2023-05-25 02:43:27 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - perform_variant_calling - Loading file from: /home/ann/projects/bioinformatics/task3/pipeline/tmplzfp0q8z/storage/786a2712-84a4-498a-8e8f-37ae128a901d/pre_stage/result
+2023-05-25 02:43:27 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 283603 - perform_variant_calling - LOADED_INPUT - Loaded input "data" using input manager "io_manager", from output "result" of step "pre_stage"
+2023-05-25 02:43:27 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - perform_variant_calling - Loading file from: /home/ann/projects/bioinformatics/task3/pipeline/tmplzfp0q8z/storage/786a2712-84a4-498a-8e8f-37ae128a901d/sort_alignment/result
+2023-05-25 02:43:27 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 283603 - perform_variant_calling - LOADED_INPUT - Loaded input "sorted_bam_file" using input manager "io_manager", from output "result" of step "sort_alignment"
+2023-05-25 02:43:27 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 283603 - perform_variant_calling - STEP_INPUT - Got input "data" of type "Any". (Type check passed).
+2023-05-25 02:43:27 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 283603 - perform_variant_calling - STEP_INPUT - Got input "sorted_bam_file" of type "Any". (Type check passed).
+2023-05-25 02:43:27 +0700 - dagster - INFO - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - perform_variant_calling - Проведение коллинга генетических вариантов
+index file ecoli.fna.fai not found, generating...
+2023-05-25 02:43:27 +0700 - dagster - INFO - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - perform_variant_calling - Finished
+2023-05-25 02:43:27 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 283603 - perform_variant_calling - STEP_OUTPUT - Yielded output "result" of type "Any". (Type check passed).
+2023-05-25 02:43:27 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - perform_variant_calling - Writing file at: /home/ann/projects/bioinformatics/task3/pipeline/tmplzfp0q8z/storage/786a2712-84a4-498a-8e8f-37ae128a901d/perform_variant_calling/result
+2023-05-25 02:43:27 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 283603 - perform_variant_calling - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
+2023-05-25 02:43:27 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 283603 - perform_variant_calling - STEP_SUCCESS - Finished execution of step "perform_variant_calling" in 678ms.
+2023-05-25 02:43:28 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 282723 - ENGINE_EVENT - Multiprocess executor: parent process exiting after 42.07s (pid: 282723)
+2023-05-25 02:43:28 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 282723 - RUN_SUCCESS - Finished execution of run for "genetic_variants".
+2023-05-25 02:43:28 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 282723 - RESOURCE_INIT_STARTED - Starting initialization of resources [io_manager].
+2023-05-25 02:43:28 +0700 - dagster - DEBUG - genetic_variants - 786a2712-84a4-498a-8e8f-37ae128a901d - 282723 - RESOURCE_INIT_SUCCESS - Finished initialization of resources [io_manager]

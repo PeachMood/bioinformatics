@@ -1,0 +1,69 @@
+Started analysis of ecoli.fastq
+Approx 5% complete for ecoli.fastq
+Approx 10% complete for ecoli.fastq
+Approx 15% complete for ecoli.fastq
+Approx 20% complete for ecoli.fastq
+Approx 25% complete for ecoli.fastq
+Approx 30% complete for ecoli.fastq
+Approx 35% complete for ecoli.fastq
+Approx 40% complete for ecoli.fastq
+Approx 45% complete for ecoli.fastq
+Approx 50% complete for ecoli.fastq
+Approx 55% complete for ecoli.fastq
+Approx 60% complete for ecoli.fastq
+Approx 65% complete for ecoli.fastq
+Approx 70% complete for ecoli.fastq
+Approx 75% complete for ecoli.fastq
+Approx 80% complete for ecoli.fastq
+Approx 85% complete for ecoli.fastq
+Approx 90% complete for ecoli.fastq
+Approx 95% complete for ecoli.fastq
+[bwa_index] Pack FASTA... 0.02 sec
+[bwa_index] Construct BWT for the packed sequence...
+[bwa_index] 0.76 seconds elapse.
+[bwa_index] Update BWT... 0.02 sec
+[bwa_index] Pack forward-only FASTA... 0.01 sec
+[bwa_index] Construct SA from BWT and Occ... 0.37 sec
+ann@ann-ZenBook-UX435EG-UX435EG:~/projects/bioinformatics/task3/bash$ ./genetic_variants.sh
+Started analysis of ecoli.fastq
+Approx 5% complete for ecoli.fastq
+Approx 10% complete for ecoli.fastq
+Approx 15% complete for ecoli.fastq
+Approx 20% complete for ecoli.fastq
+Approx 25% complete for ecoli.fastq
+Approx 30% complete for ecoli.fastq
+Approx 35% complete for ecoli.fastq
+Approx 40% complete for ecoli.fastq
+Approx 45% complete for ecoli.fastq
+Approx 50% complete for ecoli.fastq
+Approx 55% complete for ecoli.fastq
+Approx 60% complete for ecoli.fastq
+Approx 65% complete for ecoli.fastq
+Approx 70% complete for ecoli.fastq
+Approx 75% complete for ecoli.fastq
+Approx 80% complete for ecoli.fastq
+Approx 85% complete for ecoli.fastq
+Approx 90% complete for ecoli.fastq
+Approx 95% complete for ecoli.fastq
+Analysis complete for ecoli.fastq
+[bwa_index] Pack FASTA... 0.04 sec
+[bwa_index] Construct BWT for the packed sequence...
+[bwa_index] 1.05 seconds elapse.
+[bwa_index] Update BWT... 0.03 sec
+[bwa_index] Pack forward-only FASTA... 0.02 sec
+[bwa_index] Construct SA from BWT and Occ... 0.68 sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa index -p ./output/ecoli.fna ecoli.fna
+[main] Real time: 1.890 sec; CPU: 1.810 sec
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 33224 sequences (10000424 bp)...
+[M::process] read 33224 sequences (10000424 bp)...
+[M::mem_process_seqs] Processed 33224 reads in 14.798 CPU sec, 14.801 real sec
+[M::process] read 2218 sequences (667618 bp)...
+[M::mem_process_seqs] Processed 33224 reads in 14.300 CPU sec, 14.292 real sec
+[M::mem_process_seqs] Processed 2218 reads in 0.998 CPU sec, 0.964 real sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem ./output/ecoli.fna ecoli.fastq
+[main] Real time: 30.165 sec; CPU: 30.154 sec
+Качество выравнивания: OK
+Finished
