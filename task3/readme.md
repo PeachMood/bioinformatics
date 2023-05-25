@@ -108,10 +108,9 @@ dagit -f genetic_variants.py
 * `bash/genetic_variants.log` - логи пайплайна (включая оценку качества картирования OK/BAD)
 
 ## Сравнение алгоритмов
-<figure align='center'>
-  <img src='./pipeline/DAG.png'/>
-  <ficapture>Визуализация пайплайна.</ficapture>
-</figure>
+<p align='center'>
+  <img src='./pipeline/DAG.png' />
+</p>
 
 Благодаря графическому интерфейсу Dagster позволяет:
 * читать информацию о пайплайнах и наборах данных
