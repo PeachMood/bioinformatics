@@ -1,4 +1,4 @@
-./bash/output/*
+bash/output/*
 !./bash/output/qcreport.html
 !./bash/output/flagstat.txt
 !./bash/output/result.vcf
