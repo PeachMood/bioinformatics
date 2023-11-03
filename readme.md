@@ -6,4 +6,4 @@
 - [x] [Домашнее задание 1](https://github.com/PeachMood/bioinformatics/tree/main/task1)
 - [x] [Домашнее задание 2](https://github.com/PeachMood/bioinformatics/tree/main/task2)
 - [x] [Домашнее задание 3](https://github.com/PeachMood/bioinformatics/tree/main/task3)
-D:\Программирование\bioinformatics\task4\8ffw.pdb1
+- [x] [Домашнее задание 4](https://github.com/PeachMood/bioinformatics/tree/main/task4)
