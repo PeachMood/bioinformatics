@@ -24,6 +24,10 @@
 
 ![RasMol - Window example](./RasMol%20-%20Window%20example.png)
 
+И терминал для ввода команд
+
+![RasMol - Terminal example](./RasMol%20-%20Terminal%20example.png)
+
 ### Wireframe
 
 Wireframe визуализация представляет белок как набор связанных линий, образующих его трехмерную структуру. Этот вид визуализации часто используется для быстрого обзора общей формы белка.
