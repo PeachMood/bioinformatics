@@ -22,7 +22,7 @@
 
 В результате в окне приложения должна появиться загруженная структура
 
-![RasMol - Window example](.\RasMol%20-%20Window%20example.png)
+![RasMol - Window example](./RasMol%20-%20Window%20example.png)
 
 ### Wireframe
 
@@ -39,7 +39,7 @@ Wireframe визуализация представляет белок как н
 
 1. Введите в терминале команду `wireframe on`
 
-![Wireframe - Monochrome](.\Wireframe%20-%20Monochrome.png)
+![Wireframe - Monochrome](./Wireframe%20-%20Monochrome.png)
 
 ### Backbone
 
@@ -56,7 +56,7 @@ Wireframe визуализация представляет белок как н
 
 1. Введите в терминале команду `backbone on`
 
-![Backbone - Monochrome](.\Backbone%20-%20Monochrome.png)
+![Backbone - Monochrome](./Backbone%20-%20Monochrome.png)
 
 ### Spacefill + Цветовая модель CPK
 
@@ -76,7 +76,7 @@ Wireframe визуализация представляет белок как н
 1. Введите в терминале команду `spacefill on`
 2. Далее введите команду `color cpk`
 
-![Spacefill - CPK](.\Spacefill%20-%20CPK.png)
+![Spacefill - CPK](./Spacefill%20-%20CPK.png)
 
 ### Ribbons + Раскраска по доменам белка
 
@@ -96,7 +96,7 @@ Wireframe визуализация представляет белок как н
 1. Введите в терминале команду `ribbons on`
 2. Далее введите команду `color structure`
 
-![Ribbons - Structure](.\Ribbons%20-%20Structure.png)
+![Ribbons - Structure](./Ribbons%20-%20Structure.png)
 
 ### Molecular surface + Temperature (для красоты)
 
@@ -109,7 +109,7 @@ Wireframe визуализация представляет белок как н
 3. Вернитесь к навигационной панеле и выберите _"Colors"_
 4. Далее из предложеного списка выберите _"Temperature"_
 
-![Molecular surface - Temperature](.\Molecular%20surface%20-%20Temperature.png)
+![Molecular surface - Temperature](./Molecular%20surface%20-%20Temperature.png)
 
 ## Визуализация публикационного качества
 
@@ -124,4 +124,4 @@ Wireframe визуализация представляет белок как н
 7. Добавьте красивую надпись в фотошопе
 8. Готово ✨
 
-![Molecular surface - Temperature](.\Publication%20quality%20image.png)
+![Molecular surface - Temperature](./Publication%20quality%20image.png)
