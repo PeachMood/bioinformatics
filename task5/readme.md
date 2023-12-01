@@ -22,29 +22,29 @@
 **ESMFold:**
 
 - [Google Colaboratory](https://colab.research.google.com/drive/1MM_qSZsz5EzfUm_szxZqZfkBYG_7GcgO?usp=sharing)
-- [Notebook.ipynb]()
+- [Notebook.ipynb](https://github.com/PeachMood/bioinformatics/blob/main/task5/ESMFold/Notebook.ipynb)
 
 **OpenFold:**
 
 - [Google Colaboratory](https://colab.research.google.com/drive/1QZrJjq__T7Is2HBVAeP5a5YK3Xo8_NED?usp=sharing)
-- [Notebook.ipynb]()
+- [Notebook.ipynb](https://github.com/PeachMood/bioinformatics/blob/main/task5/OpenFold/Notebook.ipynb)
 
 ## Полученные предсказания структур в формате PDB
 
-**ESMFold:** [Prediction.pdb]()
+**ESMFold:** [Prediction.pdb](https://github.com/PeachMood/bioinformatics/blob/main/task5/ESMFold/Prediction.pdb)
 
-**OpenFold:** [Prediction.pdb]()
+**OpenFold:** [Prediction.pdb](https://github.com/PeachMood/bioinformatics/blob/main/task5/OpenFold/Prediction.pdb)
 
 ## Полная выдача программы выравнивания
 
 **Файлы:**
 
-- [C683043.pdb]() - superposed Ca-traces in the aligned regions
-- [D683043.pdb]() - superposed Ca-traces of entire chain
-- [E683043.pdb]() - superposed full-atom structure in the aligned region
-- [F683043.pdb]() - superposed full-atom structure of the entire chain
-- [G683043.pdb]() - superposed full-atom structure of the entire chain with ligands/solvents
-- [Output.txt]() - TMalign results message
+- [C683043.pdb](https://github.com/PeachMood/bioinformatics/blob/main/task5/TMAlign/C683043.pdb) - superposed Ca-traces in the aligned regions
+- [D683043.pdb](https://github.com/PeachMood/bioinformatics/blob/main/task5/TMAlign/D683043.pdb) - superposed Ca-traces of entire chain
+- [E683043.pdb](https://github.com/PeachMood/bioinformatics/blob/main/task5/TMAlign/E683043.pdb) - superposed full-atom structure in the aligned region
+- [F683043.pdb](https://github.com/PeachMood/bioinformatics/blob/main/task5/TMAlign/F683043.pdb) - superposed full-atom structure of the entire chain
+- [G683043.pdb](https://github.com/PeachMood/bioinformatics/blob/main/task5/TMAlign/G683043.pdb) - superposed full-atom structure of the entire chain with ligands/solvents
+- [Output.txt](https://github.com/PeachMood/bioinformatics/blob/main/task5/TMAlign/Output.txt) - TMalign results message
 
 **Изображения:**
 
@@ -54,7 +54,7 @@
 
 ## Сессия из программы визуализации
 
-**Сессия:** [Session.pse]()
+**Сессия:** [Session.pse](https://github.com/PeachMood/bioinformatics/blob/main/task5/PyMOL/Session.pse)
 
 ## Снимок экрана с полученным раскрашенным выравниваем
 
