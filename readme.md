@@ -8,3 +8,7 @@
 - [x] [Домашнее задание 1](https://github.com/PeachMood/bioinformatics/tree/main/task1)
 - [x] [Домашнее задание 2](https://github.com/PeachMood/bioinformatics/tree/main/task2)
 - [x] [Домашнее задание 3](https://github.com/PeachMood/bioinformatics/tree/main/task3)
+<<<<<<< HEAD
+=======
+- [x] [Домашнее задание 4](https://github.com/PeachMood/bioinformatics/tree/main/task4)
+>>>>>>> 4858a24967cfa64e73ff39b1577320ce01391014
