@@ -24,18 +24,22 @@
 
 ## 4. Изображения
 
-**Трехмерная структура подготовленного таргета**
+<figure>
+  <figcaption>Трехмерная структура подготовленного таргета</figcaption>
+  <img src="Target.png" />
+</figure>
 
-![Target](Target.png)
+<figure>
+  <figcaption>Трехмерная структура исходного лиганда</figcaption>
+  <img src="Ligand.png" />
+</figure>
 
-**Трехмерная структура исходного лиганда**
+<figure>
+  <figcaption>Полученный бокс</figcaption>
+  <img src="Box.png" />
+</figure>
 
-![Ligand](Ligand.png)
-
-**Полученный бокс**
-
-![Box](Box.png)
-
-**Полученный докинг**
-
-![Docking](Docking.png)
+<figure>
+  <figcaption>Полученный докинг</figcaption>
+  <img src="Docking.png" />
+</figure>
