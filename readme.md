@@ -10,3 +10,4 @@
 - [x] [Домашнее задание 3](https://github.com/PeachMood/bioinformatics/tree/main/task3)
 - [x] [Домашнее задание 4](https://github.com/PeachMood/bioinformatics/tree/main/task4)
 - [x] [Домашнее задание 5](https://github.com/PeachMood/bioinformatics/tree/main/task5)
+- [x] [Домашнее задание 6](https://github.com/PeachMood/bioinformatics/tree/main/task6)
