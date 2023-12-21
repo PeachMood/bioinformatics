@@ -14,7 +14,7 @@
 
 ## 2. Полученный ноутбук с выполненным докингом
 
-**Файл:** [Notebook.ipynb](https://github.com/PeachMood/bioinformatics/blob/main/task6/Docking.ipynb)
+**Файл:** [Notebook.ipynb](https://github.com/PeachMood/bioinformatics/blob/main/task6/Notebook.ipynb)
 
 **Google Colab:** [Notebook](https://colab.research.google.com/drive/1rHZnPqs9ZqxdQIrfgrChtaccGhI5YjaR?usp=sharing)
 
